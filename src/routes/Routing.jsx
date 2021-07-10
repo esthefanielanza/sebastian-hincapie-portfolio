@@ -6,8 +6,9 @@ import {
   Route,
 } from 'react-router-dom';
 
+
 import { About, Case, Home } from 'pages';
-import { Nav } from 'components';
+import { Nav, Footer } from 'components';
 
 import {
   ABOUT, CASE, HOME, NAV_LINKS,
@@ -30,6 +31,8 @@ const Routing = () => (
         <Home />
       </Route>
     </Switch>
+
+    <Footer />
   </Router>
 );
 

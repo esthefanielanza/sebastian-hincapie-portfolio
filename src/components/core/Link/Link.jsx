@@ -6,16 +6,16 @@ import { Link as RouterLink } from 'react-router-dom';
 import './styles.scss';
 
 const Link = ({
-  href, variant, children, external,
+  href, variant, children, external, ...props
 }) => {
   const className = classNames('link', variant);
 
   if (external) {
-    return <a href={external}>{children}</a>;
+    return <a {...props} href={href} className={className}>{children}</a>;
   }
 
   return (
-    <RouterLink className={className} to={href}>
+    <RouterLink {...props} className={className} to={href}>
       {children}
     </RouterLink>
   );

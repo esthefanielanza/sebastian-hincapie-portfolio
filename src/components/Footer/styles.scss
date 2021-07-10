@@ -1,0 +1,50 @@
+@import "assets/variables";
+@import "assets/media-queries";
+
+.footer {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 93px 36px;
+  background-color: $secondary-bg;
+  text-align: center;
+
+  & > span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__links {
+    @include tablet {
+      flex-direction: row;
+      width: 422px;
+    }
+
+    & > a {
+      margin-bottom: 8px;
+    }
+    align-items: center;
+    width: fit-content;
+    flex-direction: column;
+    display: flex;
+    width: 422px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  &__social {
+    @include tablet {
+      width: 316px;
+    }
+
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+
+    & > svg {
+      fill: $dark-bg;
+    }
+  }
+}
