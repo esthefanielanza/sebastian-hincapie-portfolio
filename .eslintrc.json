@@ -18,6 +18,9 @@
     "react"
   ],
   "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "react/button-has-type": "off",
+    "arrow-body-style": "off"
   },
   "settings": {
     "import/resolver": {

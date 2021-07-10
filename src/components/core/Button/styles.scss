@@ -1,0 +1,35 @@
+@import "assets/variables";
+
+.button {
+  padding: 11px 22px;
+  border: 1px solid;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: filter 0.2s, background-color 0.2s, color 0.2s;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.--default {
+    background-color: $dark-bg;
+    color: $primary-bg;
+    border-color: $dark-bg;
+
+    &:hover {
+      filter: opacity(0.8);
+    }
+  }
+
+  &.--outline {
+    background-color: transparent;
+    color: $dark-bg;
+    border-color: $dark-bg;
+
+    &:hover {
+      background-color: $dark-bg;
+      color: $primary-bg;
+    }
+  }
+};
