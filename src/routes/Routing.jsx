@@ -1,18 +1,21 @@
 import React from 'react';
 
-import { About, Case, Home } from 'pages';
-
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
 
-import { ABOUT, CASE, HOME } from './constantes';
+import { About, Case, Home } from 'pages';
+import { Nav } from 'components';
+
+import {
+  ABOUT, CASE, HOME, NAV_LINKS,
+} from './constants';
 
 const Routing = () => (
   <Router>
-    <nav>Navigation</nav>
+    <Nav links={NAV_LINKS} />
 
     <Switch>
       <Route path={ABOUT}>

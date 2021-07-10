@@ -5,3 +5,16 @@ body {
   font-family: 'DM Sans', sans-serif;
   margin: 0;
 }
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}

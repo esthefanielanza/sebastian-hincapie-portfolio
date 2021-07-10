@@ -3,6 +3,7 @@
 .link {
   font-size: 19px;
   transition: color 0.2s;
+  font-weight: 500;
 
   &.--default {
     color: $link-text;
