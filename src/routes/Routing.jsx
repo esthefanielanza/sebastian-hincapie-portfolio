@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { About, Case, Home } from 'pages';
+import { Footer } from 'components';
 
 import {
   BrowserRouter as Router,
@@ -8,7 +9,7 @@ import {
   Route,
 } from 'react-router-dom';
 
-import { ABOUT, CASE, HOME } from './constantes';
+import { ABOUT, CASE, HOME } from './constants';
 
 const Routing = () => (
   <Router>
@@ -27,6 +28,8 @@ const Routing = () => (
         <Home />
       </Route>
     </Switch>
+
+    <Footer />
   </Router>
 );
 
