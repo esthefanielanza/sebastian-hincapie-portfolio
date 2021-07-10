@@ -3,9 +3,10 @@ import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      Sebastian
-    </div>
+    <p className="App">
+      Hi, I’m Sebastian, a Product Designer at Zemoga. My passion
+      is to help companies create amazing digital products to connect with their users.
+    </p>
   );
 }
 
