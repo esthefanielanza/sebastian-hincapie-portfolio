@@ -1,0 +1,18 @@
+@import "assets/variables";
+@import "assets/media-queries";
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    width: 100%;
+    padding: 0 16px;
+    max-width: $max-width;
+
+    @include tablet {
+      padding: 0 130px;
+    }
+  }
+}

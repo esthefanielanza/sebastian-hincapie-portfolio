@@ -1,0 +1,35 @@
+@import "assets/variables";
+@import "assets/media-queries";
+
+.welcome {
+  padding: 48px 0;
+  min-width: 100%;
+
+  @include tablet {
+    max-width: 55%;
+    font-size: 48px;
+    padding: 184px 0;
+  }
+
+  & > h1 {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+
+    @include tablet {
+      max-width: 55%;
+      font-size: 48px;
+    }
+
+    & > a {
+      color: $secondary-text;
+      text-decoration: none;
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: opacity(0.8);
+      }
+    }
+  }
+}

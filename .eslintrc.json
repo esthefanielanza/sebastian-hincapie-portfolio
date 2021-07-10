@@ -20,7 +20,8 @@
   "rules": {
     "react/jsx-props-no-spreading": "off",
     "react/button-has-type": "off",
-    "arrow-body-style": "off"
+    "arrow-body-style": "off",
+    "react/no-danger": "off"
   },
   "settings": {
     "import/resolver": {
