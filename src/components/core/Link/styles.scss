@@ -1,0 +1,43 @@
+@import 'assets/variables';
+
+.link {
+  font-size: 19px;
+  transition: color 0.2s;
+
+  &.--default {
+    color: $link-text;
+    text-decoration: none;
+
+    &:visited {
+      color: $link-text;
+    }
+
+    &:hover {
+      color: $primary-text;
+    }
+  }
+
+  &.--underline,
+  &.--button {
+    font-weight: bold;
+    color: $primary-text;
+    text-decoration: none;
+    text-align: center;
+
+    letter-spacing: -0.5px;
+
+    &:visited {
+      color: $primary-text;
+    }
+
+    &:hover {
+      color: $link-text;
+    }
+  }
+
+  &.--underline {
+    font-size: 18px;
+    text-decoration: underline;
+    letter-spacing: 0;
+  }
+}
