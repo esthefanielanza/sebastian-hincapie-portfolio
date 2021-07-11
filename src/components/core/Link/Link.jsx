@@ -11,7 +11,17 @@ const Link = ({
   const className = classNames('link', variant);
 
   if (external) {
-    return <a {...props} href={href} className={className}>{children}</a>;
+    return (
+      <a
+        {...props}
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+        className={className}
+      >
+        {children}
+      </a>
+    );
   }
 
   return (

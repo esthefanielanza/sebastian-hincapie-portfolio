@@ -13,11 +13,42 @@
     display: none;
 
     @include tablet {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
 
-      > .link {
-        margin-left: 24px;
+      &__success {
+        margin: 0;
+        font-size: 10px;
       }
+
+      &__links {
+        display: flex;
+        > div {
+          display: flex;
+          flex-direction: column;
+          margin-left: 24px;
+          position: relative;
+
+          > span {
+            position: absolute;
+            top: 24px;
+            transform: translateY(-10px);
+            transition: all 0.2s;
+            opacity: 0;
+
+            &.visible {
+              transform: translateY(0);
+              opacity: 1;
+            }
+          }
+        }
+
+      }
+    }
+
+    &__success {
+      width: 76px;
     }
 
     &--mobile {
@@ -32,6 +63,7 @@
         flex-direction: column;
         align-items: flex-end;
 
+        &:active,
         &:hover {
           > span {
             background-color: $link-text;
@@ -53,7 +85,7 @@
       }
 
       &__overlay {
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100%;
         top: 0;
@@ -61,15 +93,67 @@
         background-color: $dark-bg;
         color: $light-text;
         padding: 16px 32px;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.2s ease-in-out;
+        display: flex;
+
+        &.--open {
+          transform: translateX(0);
+          opacity: 1;
+        }
+
+        svg {
+          fill: white;
+        }
 
         &__header {
           display: flex;
+          justify-content: space-between;
 
           .link {
             color: $light-text;
+          }
+        }
 
-            &:visited {
+        &__links {
+          flex: 1; 
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          height: fit-content;
+
+          > div {
+            display: flex;
+            flex-direction: column;
+
+            > span {
               color: $light-text;
+              font-size: 16px;
+              font-weight: 500;
+              opacity: 0;
+              transform: translateY(-10px);
+              transition: all 0.2s;
+
+              &.visible {
+                transform: translateY(0);
+                opacity: 1;
+              }
+            }
+  
+            .link {
+              color: $light-text;
+              margin: 4px 0;
+              font-size: 61px;
+              font-weight: bold;
+  
+              &:hover {
+                color: $light-text;
+              }
+
+              &:active {
+                color: $link-text;
+              }
             }
           }
         }

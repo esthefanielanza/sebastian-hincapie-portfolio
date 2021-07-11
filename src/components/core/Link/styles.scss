@@ -1,21 +1,28 @@
 @import 'assets/variables';
+@import 'assets/media-queries';
 
 .link {
-  font-size: 19px;
+  font-size: 19.4px;
   transition: color 0.2s;
   font-weight: 500;
+
+  &:visited {
+    color: inherit;
+  }
 
   &.--default {
     color: $link-text;
     text-decoration: none;
 
-    &:visited {
-      color: $link-text;
-    }
-
-    &:hover {
+    &:active {
       color: $primary-text;
     }
+
+    @include tablet {
+      &:hover {
+        color: $primary-text;
+      }
+    }    
   }
 
   &.--underline,
@@ -27,12 +34,14 @@
 
     letter-spacing: -0.5px;
 
-    &:visited {
-      color: $primary-text;
+    &:active {
+      color: $link-text;
     }
 
-    &:hover {
-      color: $link-text;
+    @include tablet {
+      &:hover {
+        color: $link-text;
+      }
     }
   }
 

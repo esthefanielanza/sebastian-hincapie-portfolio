@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import classNames from 'classnames';
 
 import { Link } from 'components/core';
 
@@ -9,23 +10,64 @@ import './styles.scss';
 
 const Nav = ({ links }) => {
   const [isMobileMenuOpen, handleMobileMenu] = useState(false);
+  const [successMessages, setSuccessMessage] = useState({});
 
   const renderLogo = () => (
-    <Link variant={Link.VARIANTS.BUTTON} to="/">
+    <Link variant={Link.VARIANTS.BUTTON} href="/">
       Sebastian Hincapie
     </Link>
   );
+
+  const handleSuccessMessage = (name) => {
+    setSuccessMessage({
+      ...successMessages,
+      [name]: true,
+    });
+
+    setTimeout(() => {
+      setSuccessMessage({
+        ...successMessages,
+        [name]: false,
+      });
+    }, 3000);
+  };
 
   return (
     <nav className="nav">
       {renderLogo()}
 
       <div className="nav__menu">
-        {links.map(({ name, to }) => (
-          <Link variant={Link.VARIANTS.BUTTON} to={to}>
-            {name}
-          </Link>
-        ))}
+        <div className="nav__menu__links">
+          {links.map(({
+            name, href, external, onClick, successMessage,
+          }) => {
+            const successMessageClassName = classNames(
+              'nav__menu__success',
+              { visible: successMessages[name] },
+            );
+
+            return (
+              <div>
+                <Link
+                  key={name}
+                  variant={Link.VARIANTS.BUTTON}
+                  href={href}
+                  external={external}
+                  onClick={() => {
+                    if (onClick) {
+                      onClick(() => handleSuccessMessage(name));
+                    }
+                  }}
+                >
+                  {name}
+                </Link>
+                <span className={successMessageClassName}>
+                  {successMessage}
+                </span>
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       <div className="nav__menu--mobile">
@@ -35,9 +77,12 @@ const Nav = ({ links }) => {
         </button>
 
         <MobileMenu
-          open={false}
+          links={links}
+          open={isMobileMenuOpen}
           renderLogo={renderLogo}
           handleMobileMenu={handleMobileMenu}
+          handleSuccessMessage={handleSuccessMessage}
+          successMessages={successMessages}
         />
       </div>
     </nav>

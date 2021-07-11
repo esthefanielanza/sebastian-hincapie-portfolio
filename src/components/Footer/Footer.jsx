@@ -26,13 +26,13 @@ const Footer = () => {
         </Link>
       </div>
       <div className="footer__social">
-        <Link external href={contact.behance} target="_blank" rel="noopener">
+        <Link external href={contact.behance}>
           <BehanceLogo />
         </Link>
-        <Link external href={contact.dribble} target="_blank" rel="noopener">
+        <Link external href={contact.dribble}>
           <DribbleLogo />
         </Link>
-        <Link external href={contact.instagram} target="_blank" rel="noopener">
+        <Link external href={contact.instagram}>
           <InstagramLogo />
         </Link>
         <Link external href={contact.linkedin} target="_blank" rel="noopener">

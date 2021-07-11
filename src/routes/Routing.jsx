@@ -6,7 +6,6 @@ import {
   Route,
 } from 'react-router-dom';
 
-
 import { About, Case, Home } from 'pages';
 import { Nav, Footer } from 'components';
 
