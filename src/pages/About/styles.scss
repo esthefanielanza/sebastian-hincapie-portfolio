@@ -1,0 +1,28 @@
+@import 'assets/media-queries';
+
+.about {
+  img,
+  .color-block {
+    height: 375px;
+
+    @include desktop {
+      height: 580px;
+    }
+  }
+
+  &__column {
+    margin-bottom: 70px;
+
+    @include desktop {
+      margin-bottom: 176px;
+    }
+
+    & div:nth-child(2) {
+      margin-top: 48px;
+
+      @include desktop {
+        margin-top: 0;
+      }
+    }
+  }
+}

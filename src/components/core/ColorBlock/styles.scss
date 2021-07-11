@@ -1,0 +1,12 @@
+@import 'assets/variables';
+@import 'assets/media-queries';
+
+.color-block {
+  background-color: $dark-bg;
+  flex: inherit !important;
+
+  @include desktop {
+    flex: 1 1 !important;
+    display: flex;
+  }
+}

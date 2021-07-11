@@ -4,13 +4,17 @@ import classNames from 'classnames';
 
 import './styles.scss';
 
-const Columns = ({ children }) => {
+const Columns = ({
+  children, gap, reverse, className,
+}) => {
   if (!children) {
     return null;
   }
 
+  const columnClassName = classNames('columns', { '--reverse': reverse }, className);
+
   return (
-    <div className="columns">
+    <div className={columnClassName} style={{ gap }}>
       {Children.map(children, (child) => (
         React.cloneElement(
           child,
@@ -23,10 +27,16 @@ const Columns = ({ children }) => {
 
 Columns.defaultProps = {
   children: null,
+  gap: 0,
+  className: null,
+  reverse: false,
 };
 
 Columns.propTypes = {
   children: PropTypes.node,
+  gap: PropTypes.number,
+  className: PropTypes.string,
+  reverse: PropTypes.bool,
 };
 
 export default Columns;
