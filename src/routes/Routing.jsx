@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import { About, Case, Home } from 'pages';
-import { Nav, Footer } from 'components';
+import { Nav, Footer, Page } from 'components';
 
 import {
   ABOUT, CASE, HOME, NAV_LINKS,
@@ -17,19 +17,21 @@ const Routing = () => (
   <Router>
     <Nav links={NAV_LINKS} />
 
-    <Switch>
-      <Route path={ABOUT}>
-        <About />
-      </Route>
+    <Page>
+      <Switch>
+        <Route path={ABOUT}>
+          <About />
+        </Route>
 
-      <Route path={CASE}>
-        <Case />
-      </Route>
+        <Route path={CASE}>
+          <Case />
+        </Route>
 
-      <Route path={HOME}>
-        <Home />
-      </Route>
-    </Switch>
+        <Route path={HOME}>
+          <Home />
+        </Route>
+      </Switch>
+    </Page>
 
     <Footer />
   </Router>
