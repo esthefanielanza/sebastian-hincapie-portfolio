@@ -11,6 +11,7 @@ export const NAV_LINKS = [
   {
     name: 'Contact',
     successMessage: 'My email address has been copied!',
+    external: true,
     onClick: (setSuccessMessage) => {
       Text.copyToClipboard(contact.email);
       setSuccessMessage();

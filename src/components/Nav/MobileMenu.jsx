@@ -44,9 +44,8 @@ const MobileMenu = ({
           );
 
           return (
-            <div>
+            <div key={name}>
               <Link
-                key={name}
                 href={href}
                 external={external}
                 onClick={() => handleClick(name, onClick)}

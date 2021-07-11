@@ -1,7 +1,7 @@
 @import "assets/media-queries.scss";
 
 .nav {
-  padding: 16px 32px;
+  padding: 32px 16px;
   display: flex;
   justify-content: space-between;
 
@@ -72,10 +72,11 @@
 
         > span {
           width: 100%;
-          height: 6px;
+          height: 2px;
           background-color: $dark-bg;
           border-radius: 6px;
           transition: background-color 0.2s;
+          border: solid 3px #011733;
 
           &:nth-child(2) {
             width: 70%;
@@ -92,7 +93,7 @@
         left: 0;
         background-color: $dark-bg;
         color: $light-text;
-        padding: 16px 32px;
+        padding: 32px 16px;
         flex-direction: column;
         transform: translateX(100%);
         transition: transform 0.2s ease-in-out;

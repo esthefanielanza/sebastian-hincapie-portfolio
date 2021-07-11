@@ -47,9 +47,8 @@ const Nav = ({ links }) => {
             );
 
             return (
-              <div>
+              <div key={name}>
                 <Link
-                  key={name}
                   variant={Link.VARIANTS.BUTTON}
                   href={href}
                   external={external}

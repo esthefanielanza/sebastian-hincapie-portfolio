@@ -30,7 +30,7 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-  variant: PropTypes.oneOf(Button.VARIANTS),
+  variant: PropTypes.oneOf(Object.values(Button.VARIANTS)),
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
   type: PropTypes.string,

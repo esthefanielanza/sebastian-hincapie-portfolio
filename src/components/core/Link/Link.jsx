@@ -41,11 +41,12 @@ Link.defaultProps = {
   variant: Link.VARIANTS.DEFAULT,
   children: null,
   external: false,
+  href: null,
 };
 
 Link.propTypes = {
-  href: PropTypes.string.isRequired,
-  variant: PropTypes.oneOf(Link.VARIANTS),
+  href: PropTypes.string,
+  variant: PropTypes.oneOf(Object.values(Link.VARIANTS)),
   children: PropTypes.node,
   external: PropTypes.bool,
 };
