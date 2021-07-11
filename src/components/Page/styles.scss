@@ -12,6 +12,10 @@
     max-width: $max-width;
 
     @include tablet {
+      padding: 0 65px;
+    }
+
+    @include desktop {
       padding: 0 130px;
     }
   }

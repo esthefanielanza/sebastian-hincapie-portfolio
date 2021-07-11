@@ -4,12 +4,12 @@ import classNames from 'classnames';
 
 import './styles.scss';
 
-const Columns = ({ children, gap, reverse, className }) => {
+const Columns = ({
+  children, gap, reverse, className,
+}) => {
   if (!children) {
     return null;
   }
-
-  console.log('[reverse]', reverse);
 
   const columnClassName = classNames('columns', { '--reverse': reverse }, className);
 

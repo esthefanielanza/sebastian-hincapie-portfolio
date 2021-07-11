@@ -8,12 +8,188 @@
         "image": null
       },
       {
-        "text": "<p>My most recent job has led me to lead the internal design processes related to design system, service blueprint, documentation and Visual QA for the <strong><a href='https://www.greatwolf.com/' target='_blank' rel='noopener'>Great Wolf Lodge</a></strong> team. Besides that, I have been helping <strong>Verizon</strong> with their new product <strong><a href='https://www.verizon.com/solutions-and-services/family-money/' target='_blank' rel='noopener'>Family Money</a></strong>, a task that has been utterly satisfying and challenging at the same time. </p><p>Having led and being part of design teams for years in this young, rapidly growing technology environment - taught me how to balance business goals and engineering constraints as I unrelentingly advocated for the user.<./p><p>I graduated from Pontificia Universidad Javeriana, Colombia with a degree in Visual Arts. This has taught me all the design spectrum, from analog and digital illustration, to typography, photography, sculpture, cinema and user experience, my specialized field for 7 years now.</p><p>I grew up in Colombia but have lived in different countries throughout my life - England, Argentina, Mexico. Having experienced different cultures has strengthen my ability to adjust to new challenges and embrace different cultures understanding all points of view and that is something you can see in my designs and also in my <strong><a href='https://www.behance.net/sebastianhincapie' target='_blank' rel='noopener'>concept art.</a></strong></p>",
+        "text": "<p>My most recent job has led me to lead the internal design processes related to design system, service blueprint, documentation and Visual QA for the <strong><a href='https://www.greatwolf.com/' target='_blank' rel='noopener'>Great Wolf Lodge</a></strong> team. Besides that, I have been helping <strong>Verizon</strong> with their new product <strong><a href='https://www.verizon.com/solutions-and-services/family-money/' target='_blank' rel='noopener'>Family Money</a></strong>, a task that has been utterly satisfying and challenging at the same time. </p><p>Having led and being part of design teams for years in this young, rapidly growing technology environment - taught me how to balance business goals and engineering constraints as I unrelentingly advocated for the user.</p><p>I graduated from Pontificia Universidad Javeriana, Colombia with a degree in Visual Arts. This has taught me all the design spectrum, from analog and digital illustration, to typography, photography, sculpture, cinema and user experience, my specialized field for 7 years now.</p><p>I grew up in Colombia but have lived in different countries throughout my life - England, Argentina, Mexico. Having experienced different cultures has strengthen my ability to adjust to new challenges and embrace different cultures understanding all points of view and that is something you can see in my designs and also in my <strong><a href='https://www.behance.net/sebastianhincapie' target='_blank' rel='noopener'>concept art.</a></strong></p>",
         "image": {
           "url": "/static/about/drawing.png",
           "alt": "concept art"
         }
       }
     ]
-  }
+  },
+  "cases": [
+    {
+      "id": 1,
+      "name": "Walmart",
+      "type": "UX / UI / Prototyping",
+      "slogan": "One of the biggest retailers in the world unifying two services into one.",
+      "images": {
+        "home": {
+          "url": "/static/walmart/home.png",
+          "alt": "One of the biggest retailers in the world unifying two services into one."
+        }
+      },
+      "features": [
+        {
+          "icon": "/static/icons/cases/walmart_1.svg",
+          "title": "Unify two apps into one",
+          "description": "Major problems were two outdated apps both in forms and looks, logic structural problems in lots of the flows, and a design system without clear directions."
+        },
+        {
+          "icon": "/static/icons/cases/walmart_2.svg",
+          "title": "Deep users understanding",
+          "description": "From screen UI convertion into new Breakpoints, to a complete facelift for the design system, including components, behaviours and interaction design."
+        },
+        {
+          "icon": "/static/icons/cases/walmart_3.svg",
+          "title": "Strengthened experience",
+          "description": "An improved, clearer experience, with more tools for users, resulted in a solid and unified product that improves people's lives day after day in all their purchases."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Verizon",
+      "type": "UX / UI / Motion",
+      "slogan": "Financial Literacy for kids with the new Family Money app and Visa Card.",
+      "images": {
+        "home": {
+          "url": "/static/verizon1/home.png",
+          "alt": "Financial Literacy for kids with the new Family Money app and Visa Card."
+        }
+      },
+      "features": [
+        {
+          "icon": "/static/icons/cases/verizon1_1.svg",
+          "title": "Support Family Money app",
+          "description": "Challenge consisted in designing a website that motivates, informs and encourages downloading the app, also letting the user access key information about the service."
+        },
+        {
+          "icon": "/static/icons/cases/verizon1_2.svg",
+          "title": "Setting the foundations",
+          "description": "Roadmap of different versions of the website, new interactive features and constant business and user findings were part of setting the pillars for the site."
+        },
+        {
+          "icon": "/static/icons/cases/verizon1_3.svg",
+          "title": "Wide vision of the product",
+          "description": "A clear, wide vision of key info, related articles and every advantage the product offers is portrayed on the website, resulting in a huge number of downloads for the product."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Great Wolf Lodge",
+      "type": "UX / UI / Prototyping",
+      "slogan": "Helping the largest family of indoor water park resorts in North America improve their booking process through calendars.",
+      "images": {
+        "home": {
+          "url": "/static/gwl1/home.png",
+          "alt": "Helping the largest family of indoor water park resorts in North America improve their booking process through calendars."
+        }
+      },
+      "features": [
+        {
+          "icon": "/static/icons/cases/gwl1_1.svg",
+          "title": "Clarify Deals and Booking process",
+          "description": "Confusion with the deals, incomplete and misleading information and overall dissatisfaction were just some of the problems users had with booking."
+        },
+        {
+          "icon": "/static/icons/cases/gwl1_2.svg",
+          "title": "Finding solutions",
+          "description": "Constant iterations, multiple hypotheses and constant discussions with lots of user testing were necessary to build a new experience for for the booking flow."
+        },
+        {
+          "icon": "/static/icons/cases/gwl1_3.svg",
+          "title": "Improved experience",
+          "description": "With the new interaction design for the booking journey, clarity, coherence and a considerable impact on the company's revenue were achieved."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "IQOS",
+      "type": "UX / UI / Motion / Social Media",
+      "slogan": "Lead capturing platform to help introduce IQOS new products.",
+      "images": {
+        "home": {
+          "url": "/static/iqos/home.png",
+          "alt": "Lead capturing platform to help introduce IQOS new products."
+        }
+      },
+      "features": [
+        {
+          "icon": "/static/icons/cases/iqos_1.svg",
+          "title": "Lead capturing",
+          "description": "The challenge consisted in creating a platform to capture new leads for the brand introducing its values, benefits and a new service called IQOS Coach."
+        },
+        {
+          "icon": "/static/icons/cases/iqos_2.svg",
+          "title": "Funnel users to take action",
+          "description": "In order to generate engagement on the platform, it was necessary to highlight the product, sell the brand and explain the new service included with the purchase."
+        },
+        {
+          "icon": "/static/icons/cases/iqos_3.svg",
+          "title": "Massive new users numbers",
+          "description": "The campaign was a massive success within the niche of this type of products, generating more than 5000 leads in the two months that was online."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Verizon",
+      "type": "UX / UI / Prototyping",
+      "slogan": "Prints and gifts augmented reality app inside the Verizon cloud.",
+      "images": {
+        "home": {
+          "url": "/static/verizon2/home.png",
+          "alt": "Prints and gifts augmented reality app inside the Verizon cloud."
+        }
+      },
+      "features": [
+        {
+          "icon": "/static/icons/cases/verizon2_1.svg",
+          "title": "Redesign Print & Gifts app",
+          "description": "Problems in categorization, flows and technology, made the previous experience difficult to use, and generated little to no engagement on the service."
+        },
+        {
+          "icon": "/static/icons/cases/verizon2_2.svg",
+          "title": "New tech and Improvements",
+          "description": "From improvements in flows, categorization and architecture, to interaction design and the inclusion of new augmented reality technology to differenciate from competition."
+        },
+        {
+          "icon": "/static/icons/cases/verizon2_3.svg",
+          "title": "Personalized experience",
+          "description": "Changes made possible that the users experienced a much more personalized product that responded to their needs in ways they hadn’t experienced before."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Great Wolf Lodge",
+      "type": "UX / Prototyping",
+      "slogan": "Redefining families experience in the parks through the app.",
+      "images": {
+        "home": {
+          "url": "/static/gwl2/home.png",
+          "alt": "Redefining families experience in the parks through the app."
+        }
+      },
+      "features": [
+        {
+          "icon": "/static/icons/cases/gwl2_1.svg",
+          "title": "Outdated app experience",
+          "description": "Un-structured components, misleading actions and arquitecture, Un-focused sections and unnecessary tools for users that wanted a different experience being on-site."
+        },
+        {
+          "icon": "/static/icons/cases/gwl2_2.svg",
+          "title": "Deep UX research",
+          "description": "Redefinition of flows, architecture, red routes, mental and physical costs of interaction and setting the steps to lead a new and better experience for the primary use cases."
+        },
+        {
+          "icon": "/static/icons/cases/gwl2_3.svg",
+          "title": "A new station of fun on the spot",
+          "description": "The changes created a new way of experiencing the park before, during and after visiting the Lodges. Generating better ratings for the brand and higher revenue for parks."
+        }
+      ]
+    }
+  ]
 }
