@@ -34,6 +34,20 @@
   "cases": [
     {
       "id": 1,
+      "slug": "walmart",
+      "logo": "/static/walmart/logo.svg",
+      "cover_img": "/static/walmart/cover.png",
+      "year": "2020",
+      "role": "UX/UI Designer",
+      "collaborators": "Alex Martinez (Lead UX/UI) Alejandra Restrepo (Lead UX/UI)",
+      "agency": "Zemoga",
+      "overview": "Walmart is an American multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores, <strong>it is considered the biggest retailer in the world.</strong> Their digital team is based in San Bruno, California, and we, as a team had to work closely with their design, business and marketing team.",
+      "stack": "Native App / rWeb 320 - 768 - 1024",
+      "website": "https://www.walmart.com/",
+      "app": {
+        "ios": "https://apps.apple.com/us/app/id338137227?c=Walmart_App_LP_IOS&is_retargeting=true&pid=Walmart.com",
+        "android": "https://play.google.com/store/apps/details?id=com.walmart.android&pid=Walmart.com&c=Walmart_App_LP_AND&is_retargeting=true"
+      },
       "name": "Walmart",
       "type": "UX / UI / Prototyping",
       "slogan": "One of the biggest retailers in the world unifying two services into one.",
