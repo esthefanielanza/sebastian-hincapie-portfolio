@@ -1,0 +1,11 @@
+@import "assets/media-queries";
+
+.social {
+  svg {
+    fill: $dark-bg;
+
+    &:hover {
+      fill: $link-text;
+    }
+  }
+}
