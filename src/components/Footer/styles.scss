@@ -42,9 +42,5 @@
     width: 260px;
     display: flex;
     justify-content: space-between;
-
-    & > svg {
-      fill: $dark-bg;
-    }
   }
 }

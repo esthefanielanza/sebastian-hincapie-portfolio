@@ -6,9 +6,9 @@ import { Link as RouterLink } from 'react-router-dom';
 import './styles.scss';
 
 const Link = ({
-  href, variant, children, external, ...props
+  href, variant, children, external, className, ...props
 }) => {
-  const className = classNames('link', variant);
+  const linkClassName = classNames('link', className, variant);
 
   if (external) {
     return (
@@ -17,7 +17,7 @@ const Link = ({
         href={href}
         target="_blank"
         rel="noreferrer"
-        className={className}
+        className={linkClassName}
       >
         {children}
       </a>
@@ -25,7 +25,7 @@ const Link = ({
   }
 
   return (
-    <RouterLink {...props} className={className} to={href}>
+    <RouterLink {...props} className={linkClassName} to={href}>
       {children}
     </RouterLink>
   );
@@ -35,6 +35,7 @@ Link.VARIANTS = {
   DEFAULT: '--default',
   BUTTON: '--button',
   UNDERLINE: '--underline',
+  SCALE: '--scale',
 };
 
 Link.defaultProps = {
@@ -42,6 +43,7 @@ Link.defaultProps = {
   children: null,
   external: false,
   href: null,
+  className: null,
 };
 
 Link.propTypes = {
@@ -49,6 +51,7 @@ Link.propTypes = {
   variant: PropTypes.oneOf(Object.values(Link.VARIANTS)),
   children: PropTypes.node,
   external: PropTypes.bool,
+  className: PropTypes.string,
 };
 
 export default Link;

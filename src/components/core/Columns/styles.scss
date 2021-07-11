@@ -3,10 +3,13 @@
 .columns {
   display: flex;
   flex-direction: column;
-  gap: 60px;
 
   @include desktop {
     flex-direction: row;
+
+    .col + .col {
+      margin-left: var(--gap-value);
+    }
   }
 
   &.--reverse {
@@ -14,6 +17,12 @@
 
     @include desktop {
       flex-direction: row-reverse;
+
+      .col + .col {
+        margin-right: var(--gap-value);
+        margin-left: 0;
+
+      }
     }
   }
 

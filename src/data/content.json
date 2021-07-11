@@ -5,7 +5,8 @@
       {
         "title": "Hi! I’m Sebastian.",
         "text": "<p>I am a Visual Artist from Bogotá, Colombia, currently working in the digital innovation industry.</p><p>Over the years working at <strong><a href='https://www.zemoga.com' target='_blank' rel='noopener'>Zemoga</a> & <a href='https://www.mdsdigital.com' target='_blank' rel='noopener'>MDS</a></strong> I’ve had clients from all over the world, which include Verizon, Walmart, PlayStation and Discovery, among others.</p><p>Im highly skilled at Research, Analysis, Visual Design, User Interface Design and Interaction Design, all of which I enhance with digital Illustration and motion graphics. <strong>My passion is to help companies create amazing digital products to connect with their users.</strong></p><p>Over the past 8 years I've been building digital experiences and collaborating with awesome people. If you want to know more about me, my projects or simply grab a cup of coffee, just send me an email. <strong>I would love to hear from you.</strong></p>",
-        "image": null
+        "image": null,
+        "social": true
       },
       {
         "text": "<p>My most recent job has led me to lead the internal design processes related to design system, service blueprint, documentation and Visual QA for the <strong><a href='https://www.greatwolf.com/' target='_blank' rel='noopener'>Great Wolf Lodge</a></strong> team. Besides that, I have been helping <strong>Verizon</strong> with their new product <strong><a href='https://www.verizon.com/solutions-and-services/family-money/' target='_blank' rel='noopener'>Family Money</a></strong>, a task that has been utterly satisfying and challenging at the same time. </p><p>Having led and being part of design teams for years in this young, rapidly growing technology environment - taught me how to balance business goals and engineering constraints as I unrelentingly advocated for the user.</p><p>I graduated from Pontificia Universidad Javeriana, Colombia with a degree in Visual Arts. This has taught me all the design spectrum, from analog and digital illustration, to typography, photography, sculpture, cinema and user experience, my specialized field for 7 years now.</p><p>I grew up in Colombia but have lived in different countries throughout my life - England, Argentina, Mexico. Having experienced different cultures has strengthen my ability to adjust to new challenges and embrace different cultures understanding all points of view and that is something you can see in my designs and also in my <strong><a href='https://www.behance.net/sebastianhincapie' target='_blank' rel='noopener'>concept art.</a></strong></p>",
@@ -14,7 +15,52 @@
           "alt": "concept art"
         }
       }
-    ]
+    ],
+    "clients": {
+      "title": "Clients I’ve worked with",
+      "data": [
+        {
+          "name": "Walmart",
+          "image": "/static/walmart/logo.svg",
+          "link": "https://www.walmart.com/"
+        },
+        {
+          "name": "Verizon",
+          "image": "/static/verizon1/logo.svg",
+          "link": "https://www.verizon.com/"
+        },
+        {
+          "name": "Discovery",
+          "image": "/static/discovery/logo.svg",
+          "link": "https://www.discovery.com/"
+        },
+        {
+          "name": "IQOS",
+          "image": "/static/iqos/logo.svg",
+          "link": "https://www.iqos.com"
+        },
+        {
+          "name": "Avianca",
+          "image": "/static/avianca/logo.svg",
+          "link": "https://www.avianca.com/co/en/"
+        },
+        {
+          "name": "Great Wolf Lodge",
+          "image": "/static/gwl1/logo.svg",
+          "link": "https://www.greatwolf.com/"
+        },
+        {
+          "name": "Rappi",
+          "image": "/static/rappi/logo.svg",
+          "link": "https://www.rappi.com.co/"
+        },
+        {
+          "name": "Redeban Multicolor",
+          "image": "/static/redeban/logo.svg",
+          "link": "https://www.rbmcolombia.com/wps/portal/index/index.html"
+        }
+      ]
+    }
   },
   "cases": [
     {
