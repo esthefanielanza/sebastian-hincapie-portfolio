@@ -1,7 +1,12 @@
 import React from 'react';
 
+import { Columns } from 'components/core';
+
 const About = () => (
-  <h1>About</h1>
+  <Columns>
+    <div>Batata</div>
+    <div>Biscoito</div>
+  </Columns>
 );
 
 export default About;
