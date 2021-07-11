@@ -35,6 +35,7 @@ Link.VARIANTS = {
   DEFAULT: '--default',
   BUTTON: '--button',
   UNDERLINE: '--underline',
+  SCALE: '--scale',
 };
 
 Link.defaultProps = {

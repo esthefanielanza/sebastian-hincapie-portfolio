@@ -15,16 +15,16 @@ import classNames from 'classnames';
 
 const Social = ({ className }) => (
   <div className={classNames('social', className)}>
-    <Link external href={contact.behance}>
+    <Link variant={Link.VARIANTS.BUTTON} external href={contact.behance}>
       <BehanceLogo />
     </Link>
-    <Link external href={contact.dribble}>
+    <Link variant={Link.VARIANTS.BUTTON} external href={contact.dribble}>
       <DribbleLogo />
     </Link>
-    <Link external href={contact.instagram}>
+    <Link variant={Link.VARIANTS.BUTTON} external href={contact.instagram}>
       <InstagramLogo />
     </Link>
-    <Link external href={contact.linkedin} target="_blank" rel="noopener">
+    <Link variant={Link.VARIANTS.BUTTON} external href={contact.linkedin} target="_blank" rel="noopener">
       <LinkedinLogo />
     </Link>
   </div>

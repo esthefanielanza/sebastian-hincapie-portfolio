@@ -14,7 +14,7 @@ const Columns = ({
   const columnClassName = classNames('columns', { '--reverse': reverse }, className);
 
   return (
-    <div className={columnClassName} style={{ gap }}>
+    <div className={columnClassName} style={{ '--gap-value': gap }}>
       {Children.map(children, (child) => (
         React.cloneElement(
           child,
@@ -34,7 +34,7 @@ Columns.defaultProps = {
 
 Columns.propTypes = {
   children: PropTypes.node,
-  gap: PropTypes.number,
+  gap: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   className: PropTypes.string,
   reverse: PropTypes.bool,
 };

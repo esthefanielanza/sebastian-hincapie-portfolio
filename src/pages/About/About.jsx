@@ -15,7 +15,7 @@ const About = () => (
     {about.paragraphs.map(({
       title, text, image, social,
     }, idx) => (
-      <Columns className="about__column" gap="8%" reverse={Boolean(idx % 2)}>
+      <Columns key={text} className="about__column" gap="8%" reverse={Boolean(idx % 2)}>
         {image
           ? <div className="about__column__img"><img src={image.url} alt={image.alt} /></div>
           : <ColorBlock />}
@@ -45,10 +45,11 @@ const About = () => (
         <div className="about__clients">
           {about.clients.data.map((client) => (
             <Link
+              key={client.name}
               className="about__client"
               external
               href={client.link}
-              variant={Link.VARIANTS.BUTTON}
+              variant={Link.VARIANTS.SCALE}
             >
               <img src={client.image} alt={client.name} />
             </Link>

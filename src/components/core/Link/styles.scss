@@ -51,4 +51,12 @@
     text-decoration: underline;
     letter-spacing: 0;
   }
+
+  &.--scale {
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }
