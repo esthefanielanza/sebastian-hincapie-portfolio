@@ -1,0 +1,68 @@
+@import "assets/variables";
+@import "assets/media-queries";
+
+.case-overview {
+  display: flex;
+  margin-top: 48px;
+  flex-direction: column;
+
+  @include tablet {
+    flex-direction: row;
+    margin-top: 110px;
+  }
+
+  &__left {
+    width: 100%;
+    
+    @include tablet {
+      margin-right: 130px;
+      width: 55%;
+    }
+
+    & > h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__right {
+    width: 45%;
+
+    & > p {
+      font-size: 18px;
+      line-height: 1.44;
+      letter-spacing: -0.36px;
+    }
+
+    &__item {
+      & > p {
+        margin-bottom: 10px;
+        font-size: 15px;
+      }
+    }
+
+    &__stack {
+      margin-top: 24px;
+
+      & > p {
+        margin: 0;
+        font-size: 15px;
+      }
+      & > span {
+        font-size: 12px;
+        opacity: 0.5;
+      }
+    }
+
+    &__apps {
+      margin-top: 24px;
+
+      & > a {
+        margin-right: 24px;
+        font-size: 18px;
+      }
+    }
+  }
+}

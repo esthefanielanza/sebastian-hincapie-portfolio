@@ -58,6 +58,12 @@
           "title": "Strengthened experience",
           "description": "An improved, clearer experience, with more tools for users, resulted in a solid and unified product that improves people's lives day after day in all their purchases."
         }
+      ],
+      "sections": [
+        {
+          "title": "Problem Statement",
+          "content": "<p>After some years of walmart being in the digital and e-commerce arena, the product needed a redesign at every level since their two main services were offered apart from each other in two different apps. <strong>The main challenge was to unify the two experiences into One-app.</strong></p><p>Some of those changes included redesigning the interface with key changes in site logic, UX explorations and ideations with a deep undestanding of the user flows, identifying pain points and opportunities to contribute and improve the overall experience.</p><p><strong>In order to start improving the experience I was in charge of 4 main tasks: </strong></p><ul><li>- Convert over 500 screens to three requiered Breakpoints in order to start the complete facelift of the app and the website, using the new library components.</li><li>- Iterate over differen solutions for the filtering feature.</li><li>- Explore, analize and propose different solutions for the indoor mapping service, including interaction design, zoom states and UI.</li><li>- Propose new interactions for the hallway swap.</li></ul>"
+        }
       ]
     },
     {

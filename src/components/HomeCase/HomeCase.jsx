@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button } from 'components/core';
+import { Button, Link } from 'components/core';
 import Feature from './Feature';
 
 import './styles.scss';
@@ -13,7 +13,9 @@ const HomeCase = ({ content, image }) => {
           <span>{content.type}</span>
           <h2>{content.name}</h2>
           <p>{content.slogan}</p>
-          <Button> See use case </Button>
+          <Link href={`/case/${content.slug}`}>
+            <Button> See use case </Button>
+          </Link>
         </div>
         <img src={image.url} alt={image.alt} />
       </div>
@@ -32,6 +34,7 @@ HomeCase.propTypes = {
   content: PropTypes.shape({
     type: PropTypes.string.isRequired,
     slogan: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     features: PropTypes.arrayOf(PropTypes.shape({
       icon: PropTypes.string.isRequired,
