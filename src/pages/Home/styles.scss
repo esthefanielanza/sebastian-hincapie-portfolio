@@ -1,0 +1,16 @@
+@import "assets/variables";
+@import "assets/media-queries";
+
+.home {
+  & > .home-case {
+    border-bottom: 1px solid $black;
+
+    &:last-of-type {
+      border: none;
+    }
+
+    @include tablet {
+      border: none;
+    }
+  }
+}

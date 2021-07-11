@@ -1,0 +1,77 @@
+@import "assets/media-queries";
+
+.home-case {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 0 48px 0;
+
+  @include tablet {
+    padding: 140px 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__info {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 48px;
+
+      @include tablet {
+        margin: 0;
+      }
+  
+      & > span {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+  
+      & > h2 {
+        font-size: 61px;
+        margin: 0;
+        font-weight: bold;
+      }
+  
+      & > p {
+        font-size: 18px;
+        margin-bottom: 56px;
+      }
+    }
+
+    & > img {
+      width: 100%;
+  
+      @include tablet {
+        width: 486px;
+        margin-left: 50px;
+      }
+  
+      @include desktop {
+        width: 666px;
+        margin-left: 50px;
+      }
+    }
+  }
+
+  &__features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 16px;
+
+    @include tablet {
+      flex-direction: row;
+      margin-top: 96px;
+    }
+  }
+}

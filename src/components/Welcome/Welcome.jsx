@@ -1,14 +1,18 @@
 import React from 'react';
-import content from 'data/content.json';
+import PropTypes from 'prop-types';
 
 import './styles.scss';
 
-const Welcome = () => {
+const Welcome = ({ text }) => {
   return (
     <div className="welcome">
-      <h1 dangerouslySetInnerHTML={{ __html: content.welcome }} />
+      <h1 dangerouslySetInnerHTML={{ __html: text }} />
     </div>
   );
+};
+
+Welcome.propTypes = {
+  text: PropTypes.string.isRequired,
 };
 
 export default Welcome;
