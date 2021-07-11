@@ -16,20 +16,51 @@
         }
       }
     ],
-    "clients": [
-      {
-        "name": "Wallmart",
-        "image": "/static/wallmart/logo.png"
-      },
-      {
-        "name": "Verizon",
-        "image": "/static/verizon/logo.png"
-      },
-      {
-        "name": "Discovery",
-        "image": "/static/discovery/logo.png"
-      }
-    ]
+    "clients": {
+      "title": "Clients I’ve worked with",
+      "data": [
+        {
+          "name": "Walmart",
+          "image": "/static/walmart/logo.svg",
+          "link": "https://www.walmart.com/"
+        },
+        {
+          "name": "Verizon",
+          "image": "/static/verizon1/logo.svg",
+          "link": "https://www.verizon.com/"
+        },
+        {
+          "name": "Discovery",
+          "image": "/static/discovery/logo.svg",
+          "link": "https://www.discovery.com/"
+        },
+        {
+          "name": "IQOS",
+          "image": "/static/iqos/logo.svg",
+          "link": "https://www.iqos.com"
+        },
+        {
+          "name": "Avianca",
+          "image": "/static/avianca/logo.svg",
+          "link": "https://www.avianca.com/co/en/"
+        },
+        {
+          "name": "Great Wolf Lodge",
+          "image": "/static/gwl1/logo.svg",
+          "link": "https://www.greatwolf.com/"
+        },
+        {
+          "name": "Rappi",
+          "image": "/static/rappi/logo.svg",
+          "link": "https://www.rappi.com.co/"
+        },
+        {
+          "name": "Redeban Multicolor",
+          "image": "/static/redeban/logo.svg",
+          "link": "https://www.rbmcolombia.com/wps/portal/index/index.html"
+        }
+      ]
+    }
   },
   "cases": [
     {

@@ -24,7 +24,12 @@ const About = () => (
           {text && <HTML>{text}</HTML>}
           {social && (
             <Columns className="about__social" gap={10} reverse>
-              <Link href="a" external variant={Link.VARIANTS.BUTTON}>
+              <Link
+                href="/static/about/cv.pdf"
+                download="SebastianHincapie HV English.pdf"
+                external
+                variant={Link.VARIANTS.BUTTON}
+              >
                 Download CV
               </Link>
               <Social reverse />
@@ -33,6 +38,24 @@ const About = () => (
         </div>
       </Columns>
     ))}
+
+    {about.clients && (
+      <div>
+        <h2>{about.clients.title}</h2>
+        <div className="about__clients">
+          {about.clients.data.map((client) => (
+            <Link
+              className="about__client"
+              external
+              href={client.link}
+              variant={Link.VARIANTS.BUTTON}
+            >
+              <img src={client.image} alt={client.name} />
+            </Link>
+          ))}
+        </div>
+      </div>
+    )}
   </div>
 );
 
