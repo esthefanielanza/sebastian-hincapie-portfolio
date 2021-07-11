@@ -1,0 +1,11 @@
+@import "assets/media-queries";
+
+.case {
+  &__content {
+    padding: 0;
+
+    @include tablet {
+      padding: 0 200px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.case-section {
+  padding-top: 40px;
+  font-size: 18px;
+
+  h2 {
+    font-size: 24px;
+  }
+
+  li {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  &__images {
+    display: flex;
+    justify-content: center;
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+
+      & > span {
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -157,6 +157,34 @@
           "title": "Strengthened experience",
           "description": "An improved, clearer experience, with more tools for users, resulted in a solid and unified product that improves people's lives day after day in all their purchases."
         }
+      ],
+      "sections": [
+        {
+          "title": "Problem Statement",
+          "content": "<p>After some years of walmart being in the digital and e-commerce arena, the product needed a redesign at every level since their two main services were offered apart from each other in two different apps. <strong>The main challenge was to unify the two experiences into One-app.</strong></p><p>Some of those changes included redesigning the interface with key changes in site logic, UX explorations and ideations with a deep undestanding of the user flows, identifying pain points and opportunities to contribute and improve the overall experience.</p><p><strong>In order to start improving the experience I was in charge of 4 main tasks: </strong></p><ul><li>- Convert over 500 screens to three requiered Breakpoints in order to start the complete facelift of the app and the website, using the new library components.</li><li>- Iterate over differen solutions for the filtering feature.</li><li>- Explore, analize and propose different solutions for the indoor mapping service, including interaction design, zoom states and UI.</li><li>- Propose new interactions for the hallway swap.</li></ul>"
+        },
+        {
+          "title": "Understanding the user",
+          "content": "<p>In order to tackle the problem, we had to understand what the actions of Walmart users were and their motivations. Originally, users had gotten used to separating purchases within apps in a way that seemed logical: Grouping consumables, perishable foods and groceries, and on the other hand, tools, services and appliances, among other things.</p><p>Years passed and motivations and needs varied. At this point, users needed not only a change in the type of service they obtained from digital products, but a frictionless experience that allowed having a single centralized purchase in a single app, in a single experience.</p>",
+          "images": [
+            {
+              "url": "/static/walmart/section1_1.png",
+              "label": "Walmart Groceries"
+            },
+            {
+              "url": "/static/walmart/section1_2.png",
+              "label": "Walmart.com"
+            }
+          ]
+        },
+        {
+          "title": "Business requierements and Paint points",
+          "content": "<p>By the time I entered the project, Walmart’s main app had been downloaded 103+ million times since January 2014 across both iOS and Android. In 2020, it’s the No. 2 app in the iOS App Store’s Shopping section. Walmart Grocery, meanwhile, has seen more than 16 million downloads across iOS and Android during that same time period. It’s also ranked further down (No. 30) in the Shopping section on the App Store.</p><p>What this meant was a disparity of interest in the different Walmart services that were condensed into two applications. <strong>This made no sense as it does not represent the way people shop, which is not a binary experience.</strong></p><p>Of course this meant that at the business level, grocery revenue was not being the same as Walmart.com, and the experience was feeling outdated in many of its parts, and this had to be solved quickly.</p>"
+        },
+        {
+          "title": "Especific challenges",
+          "content": "The first big task consisted in the conversion of more than 500 screens to 3 required Breakpoints for responsive web and for Native in IOS and Android. When making these conversions, we began to evaluate all the flows that both apps had, to try to refine them. To be able to do this a joint effort of many months was needed, an understanding of the current and new design system, and a very clear and constant communication with all the agents involved in product development at Walmart and on our side."
+        }
       ]
     },
     {

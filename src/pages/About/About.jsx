@@ -20,7 +20,7 @@ import SectionItems from './SectionItems';
 import './styles.scss';
 
 const About = () => {
-  const [successMessage, setSuccessMessage] = useState('Bla');
+  const [successMessage, setSuccessMessage] = useState(null);
 
   const handleSuccessMessage = () => {
     setSuccessMessage(true);
