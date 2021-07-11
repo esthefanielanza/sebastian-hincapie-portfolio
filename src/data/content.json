@@ -56,8 +56,61 @@
         },
         {
           "name": "Redeban Multicolor",
-          "image": "/static/redeban/logo.svg",
+          "image": "/static/redeban/logo.png",
           "link": "https://www.rbmcolombia.com/wps/portal/index/index.html"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education & Background",
+      "data": [
+        {
+          "name": "Javeriana",
+          "image": "/static/education/javeriana.png",
+          "description": "Master in Visual Arts",
+          "link": "https://www.javeriana.edu.co/inicio"
+        },
+        {
+          "name": "UBA",
+          "image": "/static/education/uba.png",
+          "description": "Strategic Manager in Design",
+          "link": "https://www.uba.ar/#/"
+        },
+        {
+          "name": "Google",
+          "image": "/static/education/google.png",
+          "description": "UX Designer Specialist",
+          "link":  "https://grow.google/uxdesign/#?modal_active=none"
+        },
+        {
+          "name": "AJSmart",
+          "image": "/static/education/ajs.png",
+          "description": "Design Sprint Facilitator",
+          "link": "https://ajsmart.com/masterclass"
+        },
+        {
+          "name": "IDEO",
+          "image": "/static/education/ideo.png",
+          "description": "Insights for Innovation",
+          "link": "https://www.ideou.com/"
+        },
+        {
+          "name": "UX Writers Collective",
+          "image": "/static/education/uxwriters.png",
+          "description": "UX Writing Fundamentals",
+          "link": "https://uxwriterscollective.com/"
+        },
+        {
+          "name": "IDEO Ideas",
+          "image": "/static/education/ideo.png",
+          "description": "From Ideas to Actions",
+          "link": "https://www.ideou.com/"
+        },
+        {
+          "name": "NN group",
+          "image": "/static/education/nngroup.png",
+          "description": "Human Mind & Usability",
+          "link": "https://www.nngroup.com/"
         }
       ]
     }
