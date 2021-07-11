@@ -1,12 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { HTML } from 'components/core';
+
 import './styles.scss';
 
 const Welcome = ({ text }) => {
   return (
     <div className="welcome">
-      <h1 dangerouslySetInnerHTML={{ __html: text }} />
+      <HTML tag="h1">
+        {text}
+      </HTML>
     </div>
   );
 };

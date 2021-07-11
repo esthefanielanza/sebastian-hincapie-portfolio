@@ -29,6 +29,7 @@
           flex-direction: column;
           margin-left: 24px;
           position: relative;
+          cursor: pointer;
 
           > span {
             position: absolute;
@@ -36,6 +37,7 @@
             transform: translateY(-10px);
             transition: all 0.2s;
             opacity: 0;
+            cursor: default;
 
             &.visible {
               transform: translateY(0);
