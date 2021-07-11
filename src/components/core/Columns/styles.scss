@@ -1,5 +1,21 @@
+@import 'assets/media-queries';
+
 .columns {
   display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  @include desktop {
+    flex-direction: row;
+  }
+
+  &.--reverse {
+    flex-direction: column;
+
+    @include desktop {
+      flex-direction: row-reverse;
+    }
+  }
 
   .col {
     flex: 1;

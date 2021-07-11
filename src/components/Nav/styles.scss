@@ -4,6 +4,8 @@
   padding: 32px 16px;
   display: flex;
   justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
 
   @include tablet {
     padding: 72px 48px;

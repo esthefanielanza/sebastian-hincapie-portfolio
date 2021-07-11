@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const HTML = ({ children, tag: Tag }) => (
-  <Tag dangerouslySetInnerHTML={{ __html: children }} />
+const HTML = ({ children, tag: Tag, ...props }) => (
+  <Tag {...props} dangerouslySetInnerHTML={{ __html: children }} />
 );
 
 HTML.defaultProps = {
