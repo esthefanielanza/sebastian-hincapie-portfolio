@@ -1,7 +1,7 @@
 import { getCaseRoute } from 'helpers/Route';
 import React from 'react';
 
-import { CaseHero, CaseOverview, CaseSection } from 'components/Case';
+import { CaseHero, CaseOverview, CaseSection, CaseRights } from 'components/Case';
 
 import content from 'data/content.json';
 import './styles.scss';
@@ -29,6 +29,11 @@ const Case = () => {
             <CaseSection key={section.title} section={section} />
           ))
         }
+        <CaseRights
+          name={caseContent.name}
+          year={caseContent.year}
+          trademark={caseContent.trademark}
+        />
       </div>
     </div>
   );
