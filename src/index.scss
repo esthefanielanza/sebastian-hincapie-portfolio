@@ -15,6 +15,6 @@ button, input[type="submit"], input[type="reset"] {
 	cursor: pointer;
 }
 
-* {
-  box-sizing: border-box;
+*, *::before, *::after {
+	box-sizing: border-box;
 }
