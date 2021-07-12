@@ -6,6 +6,11 @@
   margin-top: 48px;
   flex-direction: column;
   font-size: 18px;
+  padding: 0 8px;
+
+  @include tablet {
+    padding: 0 200px;
+  }
 
   @include tablet {
     flex-direction: row;

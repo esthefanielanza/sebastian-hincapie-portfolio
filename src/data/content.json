@@ -128,6 +128,7 @@
       "overview": "Walmart is an American multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores, <strong>it is considered the biggest retailer in the world.</strong> Their digital team is based in San Bruno, California, and we, as a team had to work closely with their design, business and marketing team.",
       "stack": "Native App / rWeb 320 - 768 - 1024",
       "website": "https://www.walmart.com/",
+      "trademark": "All trademarks, logos and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only. ",
       "app": {
         "ios": "https://apps.apple.com/us/app/id338137227?c=Walmart_App_LP_IOS&is_retargeting=true&pid=Walmart.com",
         "android": "https://play.google.com/store/apps/details?id=com.walmart.android&pid=Walmart.com&c=Walmart_App_LP_AND&is_retargeting=true"
@@ -169,13 +170,16 @@
           "images": [
             {
               "url": "/static/walmart/section1_1.png",
-              "label": "Walmart Groceries"
+              "label": "Walmart Groceries",
+              "height": 460
             },
             {
               "url": "/static/walmart/section1_2.png",
-              "label": "Walmart.com"
+              "label": "Walmart.com",
+              "height": 460
             }
-          ]
+          ],
+          "padding": true
         },
         {
           "title": "Business requierements and Paint points",
@@ -184,6 +188,26 @@
         {
           "title": "Especific challenges",
           "content": "The first big task consisted in the conversion of more than 500 screens to 3 required Breakpoints for responsive web and for Native in IOS and Android. When making these conversions, we began to evaluate all the flows that both apps had, to try to refine them. To be able to do this a joint effort of many months was needed, an understanding of the current and new design system, and a very clear and constant communication with all the agents involved in product development at Walmart and on our side."
+        },
+        {
+          "title": "Filtering Iterations",
+          "content": "<p>Having bundled the services into a single app, it was necessary to provide clarity on the categories to be able to find products easily. Part of this problem is solved by having clear filters in its categorization and in its visual variants, as well as its interaction design. In this way, different alternatives were designed to display the filters and the list of results. </p><p>All thought from the ease of use for the user, the categories that respond to the primary use cases, and the data of the network routes of the categories most frequented by users in both services.</p>"
+        },
+        {
+          "title": "Indoor maping",
+          "content": "<p>Indoor mapping is an exclusive service that Walmart has to help users find things easily within stores, it is designed to be instrumental in the on-site experience and is considered essential as a future feature. <strong>The main problem was the interaction with the pinch to zoom in or out, the clarity of the allies and the products and the iconographic differentiation to differentiate different services.</strong></p><p>The solution consisted in iterating different ways of making internal maps, since they pose a greater challenge to outdoor maps because they have different levels, and many elements that converge in the same place. This is how a differentiation was proposed in the contrast of icons, the colors of each product category, and finally a refinement in the interaction regarding the zoom and levels within the store.</p>"
+        },
+        {
+          "title": "Hallway Interaction",
+          "content": "<p>An important part of the transformation of the experience was not only the ease of having all the products and services in the same place, but also being able to exchange the hallways fast and frictionless at any time when using app. This is how iterations were made to change the current interaction design and propose a new way to swap between both hallways.</p><p>As a result of this change, filter interactions, product display, additions to the shopping cart, and navigation began to improve. And it was also an important test to show that the micro-interactions that were being left aside were a fundamental piece for the user and added a lot of value.</p>"
+        },
+        {
+          "title": "Learnings",
+          "content": "<p>This was a very enriching project to the extent that I was able to intervene in the product from all angles. There were components of strategy, research, deep understanding of flows and old and new architecture, animation, prototyping and high fidelity that made it one of the most challenging projects I have ever been on.</p><p><strong>The project gave me a total understanding of what it means to do a redesign of this magnitude, when a product is already established and has users who have used it for years, it is difficult to introduce changes even though they are necessary and appropriate.</strong></p><p>Communication with all the agents involved in the product is essential to be able to be a partner and not a vendor, the difference at this point is crucial because it implies an exceptional level of trust that is rewarded for autonomy in the proposals, spaces to develop them and that the opinions have a greater weight and relevance.</p><p>Doing this project has enhanced myself in understanding the broad spectrum of design, thinking about the limitations and asking the right questions.</p>"
+        },
+        {
+          "title": "Conclusions",
+          "content": "<p>A tremendous job was done on achieving AA accessibility on all displays, as well as pixel perfect interfaces on all redesigns.</p><p>Solidness and consistency was achieved in all the components of the new design system, which helped us to achieve a product that is easy to develop and that is scalable over time.</p><p>The product is now a single, centralized service that improves the user experience from many angles, which was the core of the challenge that we had in the beginning.</p><p>In addition to craft this new experience, features were improved in fundamental aspects such as clarity in internal actions for certain services, tools for the user to achieve what they want to achieve, and improvements in the interaction and clarity of many product screens such as maps, filters, lists, schedules and the shopping cart, among others.</p>"
         }
       ]
     },

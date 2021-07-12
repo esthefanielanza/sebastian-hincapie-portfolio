@@ -1,0 +1,23 @@
+@import "assets/media-queries";
+
+.case-rights {
+  padding: 88px 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  & > span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  & > p {
+    font-size: 16px;
+  }
+
+  @include tablet {
+    padding: 88px 200px;
+  }
+}
