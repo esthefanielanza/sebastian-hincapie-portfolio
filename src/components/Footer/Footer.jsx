@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'components/core';
-import { Social } from 'components';
+import Social from 'components/Social';
 
 import contact from 'data/contact.json';
 

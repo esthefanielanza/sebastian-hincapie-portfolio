@@ -1,7 +1,12 @@
 import { getCaseRoute } from 'helpers/Route';
 import React from 'react';
 
-import { CaseHero, CaseOverview, CaseSection, CaseRights } from 'components/Case';
+import {
+  CaseHero,
+  CaseOverview,
+  CaseSection,
+  CaseRights,
+} from 'components/Case';
 
 import content from 'data/content.json';
 import './styles.scss';

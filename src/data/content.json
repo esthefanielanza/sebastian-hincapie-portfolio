@@ -134,7 +134,7 @@
         "android": "https://play.google.com/store/apps/details?id=com.walmart.android&pid=Walmart.com&c=Walmart_App_LP_AND&is_retargeting=true"
       },
       "name": "Walmart",
-      "type": "UX / UI / Prototyping",
+      "type": "UX / UI / Prototyping / VQA",
       "slogan": "One of the biggest retailers in the world unifying two services into one.",
       "images": {
         "home": {
@@ -169,17 +169,20 @@
           "content": "<p>In order to tackle the problem, we had to understand what the actions of Walmart users were and their motivations. Originally, users had gotten used to separating purchases within apps in a way that seemed logical: Grouping consumables, perishable foods and groceries, and on the other hand, tools, services and appliances, among other things.</p><p>Years passed and motivations and needs varied. At this point, users needed not only a change in the type of service they obtained from digital products, but a frictionless experience that allowed having a single centralized purchase in a single app, in a single experience.</p>",
           "images": [
             {
-              "url": "/static/walmart/section1_1.png",
+              "url": "/static/walmart/section_1_1.png",
               "label": "Walmart Groceries",
-              "height": 460
+              "height": 460,
+              "mobile_height": 258
             },
             {
-              "url": "/static/walmart/section1_2.png",
+              "url": "/static/walmart/section_1_2.png",
               "label": "Walmart.com",
-              "height": 460
+              "height": 460,
+              "mobile_height": 258
             }
           ],
-          "padding": true
+          "padding": 200,
+          "shadow": "0 2px 16px 0 rgba(0, 0, 0, 0.07)"
         },
         {
           "title": "Business requierements and Paint points",
@@ -187,19 +190,162 @@
         },
         {
           "title": "Especific challenges",
-          "content": "The first big task consisted in the conversion of more than 500 screens to 3 required Breakpoints for responsive web and for Native in IOS and Android. When making these conversions, we began to evaluate all the flows that both apps had, to try to refine them. To be able to do this a joint effort of many months was needed, an understanding of the current and new design system, and a very clear and constant communication with all the agents involved in product development at Walmart and on our side."
+          "content": "The first big task consisted in the conversion of more than 500 screens to 3 required Breakpoints for responsive web and for Native in IOS and Android. When making these conversions, we began to evaluate all the flows that both apps had, to try to refine them. To be able to do this a joint effort of many months was needed, an understanding of the current and new design system, and a very clear and constant communication with all the agents involved in product development at Walmart and on our side.",
+          "images": [
+            {
+              "url": "/static/walmart/section_2_1.png",
+              "label": "Former design",
+              "height": 460,
+              "mobile_height": 284
+            },
+            {
+              "url": "/static/walmart/section_2_2.png",
+              "label": "Redesign",
+              "height": 460,
+              "mobile_height": 284
+            },
+            {
+              "url": "/static/walmart/section_2_3.png",
+              "label": "Former design",
+              "height": 460,
+              "mobile_height": 284
+            },
+            {
+              "url": "/static/walmart/section_2_4.png",
+              "label": "Redesign",
+              "height": 460,
+              "mobile_height": 284
+            },
+            {
+              "url": "/static/walmart/section_2_5.png",
+              "label": "Former design",
+              "height": 460,
+              "mobile_height": 284
+            },
+            {
+              "url": "/static/walmart/section_2_6.png",
+              "label": "Redesign",
+              "height": 460,
+              "mobile_height": 284
+            },
+            {
+              "url": "/static/walmart/section_2_7.png",
+              "label": "Former design",
+              "height": 460,
+              "mobile_height": 284
+            },
+            {
+              "url": "/static/walmart/section_2_8.png",
+              "label": "Redesign",
+              "height": 460,
+              "mobile_height": 284
+            }
+          ],
+          "shadow": "0 2px 12px 0 rgba(0, 0, 0, 0.1)"
         },
         {
           "title": "Filtering Iterations",
-          "content": "<p>Having bundled the services into a single app, it was necessary to provide clarity on the categories to be able to find products easily. Part of this problem is solved by having clear filters in its categorization and in its visual variants, as well as its interaction design. In this way, different alternatives were designed to display the filters and the list of results. </p><p>All thought from the ease of use for the user, the categories that respond to the primary use cases, and the data of the network routes of the categories most frequented by users in both services.</p>"
+          "content": "<p>Having bundled the services into a single app, it was necessary to provide clarity on the categories to be able to find products easily. Part of this problem is solved by having clear filters in its categorization and in its visual variants, as well as its interaction design. In this way, different alternatives were designed to display the filters and the list of results. </p><p>All thought from the ease of use for the user, the categories that respond to the primary use cases, and the data of the network routes of the categories most frequented by users in both services.</p>",
+          "images": [
+            {
+              "url": "/static/walmart/section_3_1.png",
+              "height": 420,
+              "mobile_height": 259
+            },
+            {
+              "url": "/static/walmart/section_3_2.png",
+              "height": 420,
+              "mobile_height": 259
+            },
+            {
+              "url": "/static/walmart/section_3_3.png",
+              "height": 420,
+              "mobile_height": 259
+            },
+            {
+              "url": "/static/walmart/section_3_4.png",
+              "height": 420,
+              "mobile_height": 259
+            },
+            {
+              "url": "/static/walmart/section_3_5.png",
+              "height": 420,
+              "mobile_height": 259
+            },
+            {
+              "url": "/static/walmart/section_3_6.png",
+              "height": 420,
+              "mobile_height": 259
+            },
+            {
+              "url": "/static/walmart/section_3_7.png",
+              "height": 420,
+              "mobile_height": 259
+            },
+            {
+              "url": "/static/walmart/section_3_8.png",
+              "height": 420,
+              "mobile_height": 259
+            }
+          ],
+          "shadow": "0 1px 6px 0 rgba(0, 0, 0, 0.1)"
         },
         {
           "title": "Indoor maping",
-          "content": "<p>Indoor mapping is an exclusive service that Walmart has to help users find things easily within stores, it is designed to be instrumental in the on-site experience and is considered essential as a future feature. <strong>The main problem was the interaction with the pinch to zoom in or out, the clarity of the allies and the products and the iconographic differentiation to differentiate different services.</strong></p><p>The solution consisted in iterating different ways of making internal maps, since they pose a greater challenge to outdoor maps because they have different levels, and many elements that converge in the same place. This is how a differentiation was proposed in the contrast of icons, the colors of each product category, and finally a refinement in the interaction regarding the zoom and levels within the store.</p>"
+          "content": "<p>Indoor mapping is an exclusive service that Walmart has to help users find things easily within stores, it is designed to be instrumental in the on-site experience and is considered essential as a future feature. <strong>The main problem was the interaction with the pinch to zoom in or out, the clarity of the allies and the products and the iconographic differentiation to differentiate different services.</strong></p><p>The solution consisted in iterating different ways of making internal maps, since they pose a greater challenge to outdoor maps because they have different levels, and many elements that converge in the same place. This is how a differentiation was proposed in the contrast of icons, the colors of each product category, and finally a refinement in the interaction regarding the zoom and levels within the store.</p>",
+          "images": [
+            {
+              "url": "/static/walmart/section_4_1.png",
+              "label": "Color categorization",
+              "height": 391,
+              "mobile_height": 391
+            },
+            {
+              "url": "/static/walmart/section_4_2.png",
+              "height": 320,
+              "mobile_height": 218
+            },
+            {
+              "url": "/static/walmart/section_4_3.png",
+              "height": 294,
+              "label": "Zoom Level 1",
+              "sub_label": "High level department groups",
+              "mobile_height": 253
+            },
+            {
+              "url": "/static/walmart/section_4_4.png",
+              "height": 294,
+              "label": "Zoom Level 2",
+              "sub_label": "High level department groups",
+              "mobile_height": 253
+            },
+            {
+              "url": "/static/walmart/section_4_5.png",
+              "height": 294,
+              "label": "Zoom Level 3",
+              "sub_label": "Aisles",
+              "mobile_height": 253
+            },
+            {
+              "url": "/static/walmart/section_4_6.png",
+              "height": 294,
+              "label": "Zoom Level 4",
+              "sub_label": "Aisles + aisle numbers",
+              "mobile_height": 253
+            }
+          ],
+          "padding": 60
         },
         {
           "title": "Hallway Interaction",
-          "content": "<p>An important part of the transformation of the experience was not only the ease of having all the products and services in the same place, but also being able to exchange the hallways fast and frictionless at any time when using app. This is how iterations were made to change the current interaction design and propose a new way to swap between both hallways.</p><p>As a result of this change, filter interactions, product display, additions to the shopping cart, and navigation began to improve. And it was also an important test to show that the micro-interactions that were being left aside were a fundamental piece for the user and added a lot of value.</p>"
+          "content": "<p>An important part of the transformation of the experience was not only the ease of having all the products and services in the same place, but also being able to exchange the hallways fast and frictionless at any time when using app. This is how iterations were made to change the current interaction design and propose a new way to swap between both hallways.</p><p>As a result of this change, filter interactions, product display, additions to the shopping cart, and navigation began to improve. And it was also an important test to show that the micro-interactions that were being left aside were a fundamental piece for the user and added a lot of value.</p>",
+          "images": [
+            {
+              "url": "/static/walmart/section_5_1.png",
+              "height": 651,
+              "mobile_height": 100
+            }
+          ]
         },
         {
           "title": "Learnings",
@@ -214,13 +360,28 @@
     {
       "id": 2,
       "name": "Verizon",
-      "type": "UX / UI / Motion",
+      "type": "UX / UI / Prototyping / Motion",
       "slogan": "Financial Literacy for kids with the new Family Money app and Visa Card.",
+      "slug": "verizon1",
+      "logo": "/static/verizon1/logo.svg",
+      "cover_img": "/static/walmart/cover.png",
+      "year": "2020 - 2021",
+      "role": "Lead Designer",
+      "collaborators": "Jorge Rios (Junior UX/UI) Alex Barranco (Mid UX/UI)",
+      "agency": "Zemoga",
+      "overview": "<p>Verizon is <strong>one of the world’s leading providers of technology, communications, information and entertainment products and services.</strong></p><p>The company offers voice, data and video services and solutions on networks and platforms, delivering on customers’ demand for mobility, network connectivity, and security.</p>",
+      "stack": "rWeb 375 - 768 - 1272",
+      "website": "https://www.verizon.com/solutions-and-services/family-money/",
+      "trademark": "All trademarks, logos and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only. ",
       "images": {
         "home": {
           "url": "/static/verizon1/home.png",
           "alt": "Financial Literacy for kids with the new Family Money app and Visa Card."
         }
+      },
+      "app": {
+        "ios": "https://apps.apple.com/app/id1527325310",
+        "android": "https://play.google.com/store/apps/details?id=com.verizon.visp.famoney"
       },
       "features": [
         {
@@ -237,6 +398,68 @@
           "icon": "/static/icons/cases/verizon1_3.svg",
           "title": "Wide vision of the product",
           "description": "A clear, wide vision of key info, related articles and every advantage the product offers is portrayed on the website, resulting in a huge number of downloads for the product."
+        }
+      ],
+      "sections": [
+        {
+          "title": "Problem Statement",
+          "content": "<p>Family money is an app developed by zemoga together with the verizon development team, the product consists of <strong>offering parents the possibility of giving their children a visa debit card that they can recharge whenever they wish, depending on certain actions pre-established by the parents to their children. Part of those actions are basic tasks like walking the dog or making the bed.</strong></p><p>From the development of this app, I was commissioned to design the website that would inform potential customers about the product, highlighting three fundamental pillars: Financial Literacy, Advantages of the credit card and essential aspects of the app, help users find key information on how it works and why is would be instraumental in the financial knowledge of the kids, and articles related that give deep and meaningful information to potential and current customers.</p><p>The website is intended to be informative, highly visual, and to generate users the confidence that the money deposited on the platform is backed by large banking entities, thus leading all these potential leads to look at the blog, share information, and download the app.</p>"
+        },
+        {
+          "title": "Setting the foundations",
+          "content": "<p>To start with the project, an app assessment was first carried out where all the flows and features of the project were known, as well as the way in which they intended to respond to the needs of the users. In this case, the product has two main objective groups: Parents and their children, and its main objective is to teach them to handle money from an early age, so it was necessary to have tools to achieve that objective.</p><p>In order to get to align the motivations of the users, the stakeholders, the owners and the team in general, several brainstorming sessions were held to learn in depth how to structure the project. These sessions were held with Verizon stakeholders who had already come from the entire app construction journey and who also had experience with data that came from the app's internal tests with brand employees.</p><p>The questions consisted of finding out: proposition, challenges, audience, vision, learnings, Goals and metrics.</p>"
+        },
+        {
+          "title": "Competitive Audit",
+          "content": "<p>Based on the collection of ideas and the insights produced by the exercises, a competitive audit was carried out with direct competitors. The idea was to analyze the architecture of the products, sections, content, audience, tone and value proposition, among other things.</p><p>As a result of this, we realized that our approach had to address a content that explained not only the benefits of the app, but also accompanied it at the level of strong content on financial literacy, that gave the father confidence about what he was buying and that introduced the Visa card associated with acquiring the service since this product has an extra component and is to enter a range of services associated with the brand and its own billing process.</p><p>It also helped us to observe in detail the way in which parents and children were being spoken to, how to generate engagement and attractiveness to both audiences and to focus our efforts on important areas.</p>"
+        },
+        {
+          "title": "Pillars",
+          "content": "<p>In order to structure the website well and send the message in a coherent and consistent way, the current pillars of the app were reviewed in detail, and how they responded to the needs of the users, and how they later became features.</p><p>Those features respond to 4 fundamental pillars: <strong>Parental monitoring, reliability, financial literacy and playfulness,</strong> the app needed to convey a sense of security, but also of play, it should be attractive but functional, that duality I consider was the great challenge of creating it, and the website should be an extension of that thought.</p>"
+        },
+        {
+          "title": "Sitemap",
+          "content": "<p>At this point the first sketches of the webiste's sitemap began to be proposed. This consisted of having a site that would showcase the product on the Homepage, highlighting the main features, the sense of security, innovation and that could mainly attract new users to download the app.</p><p>In future versions the architecture of the site was expanded so that we could host a section of articles to consult, a tag system to separate those contents, and a help section that would work with zendesk technology, which included a whole directory of FAQs and How-To's to help the user to find valuable information and that he could also seek help through a chat or an email.</p>"
+        },
+        {
+          "title": "Wireframes",
+          "content": "<p>The structure for the first iterations of the wireframes consisted of transmitting the feeling of family in the first instance, together with the action of being able to expand the information present in the hero. From here the content begins to become more specific to more specific information regarding the main features, along with two tabs to try to get the attention of both target audiences, parents and children.</p><p>Then the initial idea was to <strong>highlight the blog content related to financial literacy, the testimonials, and close the circle with the action that completes all the stimulus provided to users: Download the app.</strong></p>"
+        },
+        {
+          "title": "High fidelity",
+          "content": "<p>High fidelity designs were made for three breakpoints: 375, 768 and 1272, these are the default sizes of the Verizon design system for mobile tablets and desktop. In order to design this website, a deep understanding of the design system, its components and their states, and the brands do's and don'ts in product design was needed.</p><p>It also took a long assessment related to how the brand handles ADA compliance for all its products and a fairly high level of perfection in each pixel that was placed in the design, which makes a product that is not only well thought but extremely well crafted in every aspect of visual design.</p><p>The development of the website was done in parallel with the design, each interface was reviewed by the entire team in design reviews at the end of each sprint, so the design and execution was done in a very agile way.</p>"
+        },
+        {
+          "title": "Homepage",
+          "content": "The website is designed in such a way as to offer a journey from divergent to convergent, the homepage is designed to forcefully introduce the product, the card associated with the service, its benefits, articles and pricing. All this stimulus must be responded to by an action that satisfies the curiosity of the users, and this is how it was established to have a \"How it works\", to be able to explain the product in more detail."
+        },
+        {
+          "title": "Homepage animations",
+          "content": "This website had to work not only in the content, but in the form, part of that thought was materialized when animations were made to show each feature, and implemented in a subtle way and giving total control to the user through a quite intuitive natural scroll."
+        },
+        {
+          "title": "Why Family Money? - (How it works)",
+          "content": "The website is designed in such a way as to offer a journey from divergent to convergent, the homepage is designed to forcefully introduce the product, the card associated with the service, its benefits, articles and pricing. All this stimulus must be responded to by an action that satisfies the curiosity of the users, and this is how it was established to have a \"How it works\", to be able to explain the product in more detail."
+        },
+        {
+          "title": "Blog",
+          "content": "The blog was designed thinking about having the ability to host images, tables, videos and tags, which relate that particular article to others, thus providing the user with a chain of information of interest related to what they have just read. A landing was also designed to house all the articles and to be able to categorize them within a submenu that could be scalable over time depending on the new categories."
+        },
+        {
+          "title": "How - To’s",
+          "content": "In order to explain the main flows for the primary use cases, it was necessary to do a whole section to explain, as a title, how to use 3 of the most important features of the app. This section is designed so that it can grow over time and that having the necessary data, it can be tested as a performance, having only steps as a tutorial or having videos or something more complex."
+        },
+        {
+          "title": "Help Center",
+          "content": "The Help Center has been designed around the Zendesk service. It was structured as a section that works with machine learning, so that it interprets which are the most requested contents, the least and based on that, organize the help content offering a faster and more complete experience. besides that, it serves as a center for articles, tutorials and contact with the Family Money team."
+        },
+        {
+          "title": "Roadmap V2",
+          "content": "Different brainstorming sessions with the owners and stakeholders were necessary to define what the second part of the website would be, even though it had not been released. These exercises seek to have information on what the new challenges are, the expected results and the ideas to solve those challenges. From here, a debrief is made to associate ideas, matches are made with the pillars of the product and the ideas are grouped into clusters. All these ideas then come to be prioritized based on the needs of the users and become concrete features that will be worked on during the following sprints."
+        },
+        {
+          "title": "Learnings",
+          "content": "<p>This project taught me a lot from all levels. From how to work in parallel with the devs while looking at how to improve features, interactions and the experience of entire sections that had not yet been developed, much less released.</p><p>It gave me a broader overview of the management of all the agents involved including my peers, the rhythms and the synergy. In turn, it was a challenging project due to the speed of work, and had a high strategic approach component as it had to lead the project, present it to stakeholders regularly and build alliances and consensus on the limitations and possibilities, resulting in a website that is an arm in which the app can be supported to bring in new users, to support current ones and to help with any questions and expand information on any topic related to financial literacy.</p>"
         }
       ]
     },
