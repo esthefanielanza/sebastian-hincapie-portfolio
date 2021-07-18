@@ -904,8 +904,16 @@
     {
       "id": 4,
       "name": "IQOS",
+      "slug": "iqos",
+      "year": "2019",
+      "logo": "/static/iqos/logo.svg",
+      "role": "Senior UX/UI",
+      "collaborators": "Rafael Gil (Senior UI)",
+      "agency": "MDS",
+      "stack": "rWeb 375 - 768 - 1272",
       "type": "UX / UI / Motion / Social Media",
       "slogan": "Lead capturing platform to help introduce IQOS new products.",
+      "overview": "<p>Philip Morris International Inc. is a Swiss-American multinational cigarette and tobacco manufacturing company, with <strong>products sold in over 180 countries.</strong></p><p>IQOS is an Smoke free product iniciative from Phillip Morris International, it is a heated tobacco smoking device into which is inserted a short cigarette called Heet.</p>",
       "images": {
         "home": {
           "url": "/static/iqos/home.png",
@@ -927,6 +935,44 @@
           "icon": "/static/icons/cases/iqos_3.svg",
           "title": "Massive new users numbers",
           "description": "The campaign was a massive success within the niche of this type of products, generating more than 5000 leads in the two months that was online."
+        }
+      ],
+      "sections": [
+        {
+          "title": "Problem Statement",
+          "content": "<p>IQOS is a relatively new product in Colombia (Second Latin American country that sells the product together with Mexico). Being a new product, it has yet to gain a large share of the market through publicizing its supposed benefits as a consumer product, but also as a company, its technology and its added benefits, its support to old customers and those who are about to try the device. </p><p>IQOS users are making a big bet for a change in their lives regarding tobacco and the change entails a reasonable time in which they are adapting to the product and services offered by the company. In order to achieve this and in turn attract new clients, IQOS wanted a platform that could cover all those spaces where there was room to improve the quality of information and also cause excitement within the target market introducing the product and their new services as a company.</p>"
+        },
+        {
+          "title": "Discovery stage",
+          "content": "We had relevant data regarding the number of current users, the expected amount to have in a new calendar year, and the continuous complaints of a large percentage of those users towards having confusion with the use of the product, with the day to day. To mitigate this, IQOS created a new program called IQOS Coach, with which they intended to provide personalized support to their users. From here we begin to work on what would be the content blocks of the website, the red routes and the feeling that the landing should convey."
+        },
+        {
+          "title": "Content Blocks",
+          "content": "We wanted to have a site that was easy to see, that carried the message very quickly, and that was structured in such a way that we started with the benefits, we went on to explain the product and we began to introduce the IQOS Coach service little by little, to finally move on. the registration of new users who were potential Leads."
+        },
+        {
+          "title": "Hero banner",
+          "content": "<p>The hero of the landing was divided into trying to achieve two things: On the one hand, a very small introduction about general features of the device that go hand in hand with achieving a change in the lifestyle of its users, and trying to generate a link of the device and the user by means of photographs. </p><p>On the other hand, have a CTA that directs users to a form where they could capture their information to contact them later and try to sell them the product. The brand's style comes directly from Switzerland, and the idea was to convey that classic and modern feeling at the same time, with black and white photographs and the combination of gold, black and gray that transmits a lot of class.</p>"
+        },
+        {
+          "title": "Device features",
+          "content": "<p>An important part of the landing was to be able to expand the information to active users of the devices, and to potential users who wanted to know more about how it works. In order to make people interested in this product, the educational component is important, teaching people the supposed benefits, and the advantages that it has for their life by making the traditional tobacco switch with new technologies like these.</p><p>It was also important to highlight that aspirational element that always combines the device with users using it. In this way people can see the product in action and begin to become familiar with the way it is used, how it looks, its size and colors.</p>"
+        },
+        {
+          "title": "IQOS Coach",
+          "content": "<p>The great added value to catch quality leads with this landing was the introduction of a new service, which directly attacks the misunderstanding of the product, seen from afar or being already an active user. Most users have strong opinions regarding the learning curve to be able to use the device. This includes its operation, its personalization, its cleaning, where to buy, how often, online services, etc.</p><p>In order to mitigate this problem, the brand decided to include a new service called IQOS Coach, which is precisely designed to be able to help all those users who have doubts to solve them in a personalized way, with an SMS, with a call, with a WhatsApp and talk with a coach who was specifically assigned to help you and who knows the profile of the user.</p>"
+        },
+        {
+          "title": "Formulary",
+          "content": "The action to get to the form and leave the data is present in each section of the entire landing. Lead capturing was an essential part of this site since the brand needed to obtain clear data from possible users to later make them recurring users of the product, for this we designed clear forms to obtain the data and in turn we offered a site with information to instruct and them."
+        },
+        {
+          "title": "Social Media",
+          "content": "For the brand, having a presence in social networks is very important, that is why I had the responsibility of doing art direction to the pieces of social networks, also executing many of them. IQOS social media pieces are usually dynamic animated compositions to show the product and its customization."
+        },
+        {
+          "title": "Learnings",
+          "content": "<p>This was a fast project whit limited time for discovery stages, but made me a more reactive designer for when the scenarios and timeframes are tight. Some of the learnings were:</p><p>- Discover early in the process the key aspects that are tide to you key metrics, and start working around those.</p><p>- Your team should be able to know identify easily what success looks like and what doesn’t. What should be expected from this landing.</p><p>- When the site is just a landing users can feel like they are heading blindly to get or buy something, so you should give the user a previous tour so that they know what everything is about, what is obtained, and thus show the value proposition, after that, you should lead them to the concrete action (CTA).</p><p>-  Consider always having special moments though the site, could be the whole feeling of it or just a concrete memorable action, or a social media with tons of personality.</p>"
         }
       ]
     },
