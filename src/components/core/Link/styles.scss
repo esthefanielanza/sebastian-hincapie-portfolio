@@ -21,16 +21,15 @@
   &.--default {
     color: $link-text;
     text-decoration: none;
+    overflow: hidden;
+    padding-bottom: 10px;
 
-    &:active {
-      color: $primary-text;
-    }
-
-    @include tablet {
-      &:hover {
-        color: $primary-text;
-      }
-    }    
+    &:after {
+      content: '';
+      top: 26px;
+      width: 100%;
+      background-color: $link-text;
+    }  
   }
 
   &.--underline,
