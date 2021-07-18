@@ -1148,8 +1148,23 @@
     {
       "id": 6,
       "name": "Great Wolf Lodge",
-      "type": "UX / Prototyping",
+      "type": "UX / UI / Prototyping",
+      "trademark":"All trademarks, logos and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.",
       "slogan": "Redefining families experience in the parks through the app.",
+      "slug": "greatwolf2",
+      "overview": "<p>Great Wolf Lodge is the <strong>brand leader in the indoor water park resort industry.</strong> The brand has over 18 Lodges that function all around the United States and Canada.</p><p>They provide water park attractions and each resort features restaurants, arcades, spas and children's activities. Great Wolf Resorts is headquartered in Chicago, Illinois.</p>",
+      "year": "2020 - 2021",
+      "role": "Lead Designer",
+      "collaborators": "Tatiana Rincon (Senior UX) Adam Velasquez (Senior UI) Steven Kocian(Senior UX/UI)",
+      "agency": "Zemoga",
+      "stack": "Native App",
+      "website": "https://www.greatwolf.com/",
+      "cover_img": "/static/gwl1/cover.png",
+      "logo": "/static/gwl1/logo.svg",
+      "app": {
+        "ios": "https://apps.apple.com/us/app/great-wolf-lodge/id1409843426",
+        "android": "https://play.google.com/store/apps/details?id=com.greatwolf.app&hl=en_US"
+      },
       "images": {
         "home": {
           "url": "/static/gwl2/home.png",
@@ -1171,6 +1186,52 @@
           "icon": "/static/icons/cases/gwl2_3.svg",
           "title": "A new station of fun on the spot",
           "description": "The changes created a new way of experiencing the park before, during and after visiting the Lodges. Generating better ratings for the brand and higher revenue for parks."
+        }
+      ],
+      "sections": [
+        {
+          "title": "Problem Statement",
+          "content": "<p>Great Wolf had an app that had been working in the same way for years. Mainly it was a place to search for the reservation and enter to make use of some services that the platform offered, among these was the possibility of seeing events per day, reading their description and their hours, seeing restaurant menus without being able to order from the app , and a chat that is supposed to provide support but whose labeling is misleading in terms of what the user is supposed to do and find there.</p><p>This resulted in a limited, uninteresting experience with outdated components and an overall pretty grim feeling in both form and function. All of this was hurting the experience and of course, the revenue and trust building. The objective then became not only to improve the app from every point of view, but to be able to tie that success to an essential metric to measure it: <strong>That people instead of booking and enjoying the experience once, did it again a second time.</strong></p>"
+        },
+        {
+          "title": "Research",
+          "content": "<p>To begin to understand the problem, we needed to investigate how direct and indirect competitors were approaching their digital products when their users were enjoying the experience, therefore we wanted to investigate in depth what were the actions and tools that they made available to the users, the hierarchy, the content blocks and their percentage on the screen and the folds. We investigated some specific elements such as interactive maps, search, notifications, and support. All essential elements that we planned in advance to use in our own experience. From here we look at who offered these experiences, how they did it and why.</p><p>This led us to generate several hypotheses that we would later use to redesign our own product. Some of these insights were:</p><p>- The map is the cornerstone of the on-site experience of any parks app.</p><p>- The search widget is not widely used, we suppose that it is because users want to go through the options, they do not have something specific to search for.</p><p>- The hours at the attractions are an essential tool for the experience.</p><p>- Having well-implemented notifications, and with a differentiation in the category to which they belong, make the experience more user-friendly.</p><p>- No app used support (chat) as a central element.</p>"
+        },
+        {
+          "title": "Content block analysis",
+          "content": "<p>We needed to analyze in a more detailed way how the competitors were distributing the content blocks and in what percentages. In this way we could know what they consider more important and less important on their homepages, and with what density they structured those contents within the interface.</p><p>This analysis allowed us to divide the content into elements such as notifications, categories, CTAs, value propositions, services, etc. and to be able to have a more detailed view of how they were doing it and why we thought it was that way.</p>"
+        },
+        {
+          "title": "Brainstorming collaborative sessions",
+          "content": "<p>Already knowing the panorama of the competitors and their contents and hierarchies, we wanted to go on to do some brainstorming sessions, having a space that we could visit constantly to leave our ideas about the structuring of the app and the homepage.</p><p>These sessions had several objectives:</p><p>- Proposal of navigation. - Content of each tab. (Architecture)</p><p>- Current, ideal and future features.</p><p>- Prioritization of features in a matrix of efforts.</p><p>The sessions resulted in being able to know the impressions of the team from different perspectives (Product, design, development) and thus begin to draw lines that unite the different visions that each team had about what the app should be in the future. At the same time, it helped to begin to structure the architecture, future features not contemplated in this phase and the possible efforts that all those items would imply.</p>"
+        },
+        {
+          "title": "Data analysis",
+          "content": "We already had some data to understand how the app was currently working and begin to clarify how this data would influence the network routes of the application, and understand why. Here in these analyzes you could see different events, the usage count, the number of users, the number of events per user and the total percentage."
+        },
+        {
+          "title": "Red Routes",
+          "content": "<p>I decided to do a red routes exercise at this point to be able to identify which were those primary use cases and to which flow of the current application they correspond and to which of the future they would correspond.</p><p>The exercise was also not going to help identify which flows would be tied to critical product metric, key value drivers and overall being successfull. This gave us the guidelines to know where there should be less cost of mental and physical interaction, and where to put the complexity burden and finally being able to reduce the use cases and functionality meaning that the users would have less distracting elements and less MIC (mental interaction cost).</p><p>In this way we were making sure to prioritize the needs of the users, facilitate alignment between the product, its owners and the stakeholders, help avoid the introduction of weird features and have in more general terms, a much better experience.</p>"
+        },
+        {
+          "title": "Recommendations",
+          "content": "<p>All of the above began to give rise to a series of recommendations for the redesign of the homepage. Recommendations included:</p><p>- Divide the experience according to the red routes - (Core experience - Main experience - Support experience)</p><p>- The illustration had to be put in a mask at the top to reduce the cost of mental interaction (In the current app the illustration appears in the background and the functional elements on top)</p><p>- You have to take care of the first fold so as not to put too many elements and go from divergence to convergence. - The app should respond to the moment the user uses it. That stage can change between; Not having a reservation, having a reservation. but not being in the park and finally enjoying the attractions on site.</p><p>- Analyze in detail heat maps of interaction with the screen to know where to locate the most important actions.</p>"
+        },
+        {
+          "title": "Use cases",
+          "content": "<p>Part of making the experience much more complete was to customize it depending on the moment and the state in which the app is used. For this we made wireframes that reflect the structural changes that exist depending on the three use cases (exploring, planning, enjoying).</p><p>When you are exploring, the idea is to have as main actions the booking, compare passes, see the things that can be done, type of food, and the value proposition.</p><p>When planning, the ideal is to see the reservation, see the events of those days, see the water park, the attractions and buy add-ons.</p><p>When you are in the park, the essential thing is to go to events, the water park and attractions, be clearly notified of any news and be able to order food.</p>"
+        },
+        {
+          "title": "UI",
+          "content": "<p>For the UI I was doing more consulting work than execution, all the final design is done by Tatiana Rincon, who has done a truly impressive job in trying to transmit new and exciting sensations to this interface, with very interesting details and ideas, a very clean, clear and functional structure.</p><p>The idea is that the UI changes to the season the user is in and that the main illustration can change depending on that variable, or the night and the day, which is going to be something really impressive to see.</p>"
+        },
+        {
+          "title": "App Nav",
+          "content": "<p>The restructuring of the nav involved brainstorming exercises to re-categorize elements (card sorting) and to redesign the architecture. From there we were able to build what the final navigation would be in terms of the content it offers and start thinking about how the inactive active states will look like, and the microanimations that will give life to that nav, personally I wanted that the nav was a present element that apart from its functionality, offered memorable details each time it is used.</p><p>Many iterations were made until we reached a very defined style with a wilderness theme that accompanied the icons, we also considered having labeling to help the understanding of each tab. It is important to clarify that there are tabs that will not be present yet (like the map) because there are technical constrains that do not allow us to build those pages at the moment, but that will be present in later stages.</p>"
+        },
+        {
+          "title": "Learnings",
+          "content": "<p>It is a project that continues and will continue to be gradually updated while substantial definitions of flows, features and information are completed in order to turn it into an increasingly complete product.</p><p>It was challenging to the extent that redesigning something established implies introducing it little by little, that active users learn new things, teach new ones the value of using the new product and try to frame everything under the vision of the owners, design, development and marketing. This is how it was very interesting to try to match the needs of the users, (who should always come first) and those of the team in general, especially the decision-making that could affect revenue, a common fear that any team of product and for which you have to be prepared to negotiate things always putting the user first, defending him with solid and documented arguments regarding what should and should not be done.</p><p>Some of the discoveries and lessons that this extensive project has left me are:</p><p>- The vision of a product is collective, it is not individual. Everyone should be part of the creation process.</p><p>- People's emotions must be involved and not just data when it comes to a product that requires people's trust.</p><p>- Create memorable moments in your products, so it is easier for them to remember them.</p><p>- The product must balance the contemplative with the functional and one must be able to mix a little of both in the same feature, so nothing is sacrificed and the best of both worlds is offered.</p><p>- Product must, in escence keep the same layout structure so it doesn’t bring surprises when is being used from time to time. But it must be designed to change pieces in order to respond to new user needs that are not permanent, so each primary use case should be deeply analysed.</p>"
         }
       ]
     }
