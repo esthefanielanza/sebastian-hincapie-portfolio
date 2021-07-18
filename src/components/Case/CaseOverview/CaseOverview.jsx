@@ -67,11 +67,11 @@ CaseOverview.propTypes = {
     agency: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,
     stack: PropTypes.string.isRequired,
-    website: PropTypes.string.isRequired,
+    website: PropTypes.string,
     app: PropTypes.shape({
       ios: PropTypes.string.isRequired,
       android: PropTypes.string.isRequired,
-    }).isRequired,
+    }),
   }).isRequired,
 };
 

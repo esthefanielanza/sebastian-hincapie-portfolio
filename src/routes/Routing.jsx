@@ -8,6 +8,7 @@ import {
 
 import { About, Case, Home } from 'pages';
 import { Nav, Footer, Page } from 'components';
+import ScrollTop from './ScrollTop';
 
 import {
   ABOUT, CASE, HOME, NAV_LINKS,
@@ -15,6 +16,7 @@ import {
 
 const Routing = () => (
   <Router>
+    <ScrollTop />
     <Nav links={NAV_LINKS} />
 
     <Page>

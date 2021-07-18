@@ -16,16 +16,20 @@ const CaseHero = ({
           <img src={logo} alt={`${name} logo`} />
           <p>{slogan}</p>
         </div>
-        <img src={image} alt={slogan} />
+        { image && <img src={image} alt={slogan} /> }
       </div>
     </div>
   );
 };
 
+CaseHero.defaultProps = {
+  image: null,
+};
+
 CaseHero.propTypes = {
   name: PropTypes.string.isRequired,
   logo: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
+  image: PropTypes.string,
   slogan: PropTypes.string.isRequired,
 };
 

@@ -8,9 +8,11 @@
   width: 100vw;
   left: 0;
   margin-left: -16px;
+  min-height: 592px;
   
   @include tablet {
     margin-left: -65px;
+    min-height: 558px;
   }
 
   @media (min-width: $max-width) {
