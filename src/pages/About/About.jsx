@@ -45,14 +45,16 @@ const About = () => {
             {text && <HTML>{text}</HTML>}
             {social && (
               <Columns className="about__social" gap={10} reverse>
-                <Link
-                  href="/static/about/cv.pdf"
-                  download="SebastianHincapie HV English.pdf"
-                  external
-                  variant={Link.VARIANTS.BUTTON}
-                >
-                  Download CV
-                </Link>
+                <div className="about__social__cv">
+                  <Link
+                    href="/static/about/cv.pdf"
+                    download="SebastianHincapie HV English.pdf"
+                    external
+                    variant={Link.VARIANTS.BUTTON}
+                  >
+                    Download CV
+                  </Link>
+                </div>
                 <Social reverse />
               </Columns>
             )}
