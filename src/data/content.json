@@ -364,7 +364,7 @@
       "slogan": "Financial Literacy for kids with the new Family Money app and Visa Card.",
       "slug": "verizon1",
       "logo": "/static/verizon1/logo.svg",
-      "cover_img": "/static/walmart/cover.png",
+      "cover_img": "/static/verizon1/cover.png",
       "year": "2020 - 2021",
       "role": "Lead Designer",
       "collaborators": "Jorge Rios (Junior UX/UI) Alex Barranco (Mid UX/UI)",
@@ -407,23 +407,64 @@
         },
         {
           "title": "Setting the foundations",
-          "content": "<p>To start with the project, an app assessment was first carried out where all the flows and features of the project were known, as well as the way in which they intended to respond to the needs of the users. In this case, the product has two main objective groups: Parents and their children, and its main objective is to teach them to handle money from an early age, so it was necessary to have tools to achieve that objective.</p><p>In order to get to align the motivations of the users, the stakeholders, the owners and the team in general, several brainstorming sessions were held to learn in depth how to structure the project. These sessions were held with Verizon stakeholders who had already come from the entire app construction journey and who also had experience with data that came from the app's internal tests with brand employees.</p><p>The questions consisted of finding out: proposition, challenges, audience, vision, learnings, Goals and metrics.</p>"
+          "content": "<p>To start with the project, an app assessment was first carried out where all the flows and features of the project were known, as well as the way in which they intended to respond to the needs of the users. In this case, the product has two main objective groups: Parents and their children, and its main objective is to teach them to handle money from an early age, so it was necessary to have tools to achieve that objective.</p><p>In order to get to align the motivations of the users, the stakeholders, the owners and the team in general, several brainstorming sessions were held to learn in depth how to structure the project. These sessions were held with Verizon stakeholders who had already come from the entire app construction journey and who also had experience with data that came from the app's internal tests with brand employees.</p><p>The questions consisted of finding out: proposition, challenges, audience, vision, learnings, Goals and metrics.</p>",
+          "images": [
+            {
+              "url": "/static/verizon1/section_1_1.png",
+              "height": 562,
+              "mobile_height": 236
+            }
+          ]
         },
         {
           "title": "Competitive Audit",
-          "content": "<p>Based on the collection of ideas and the insights produced by the exercises, a competitive audit was carried out with direct competitors. The idea was to analyze the architecture of the products, sections, content, audience, tone and value proposition, among other things.</p><p>As a result of this, we realized that our approach had to address a content that explained not only the benefits of the app, but also accompanied it at the level of strong content on financial literacy, that gave the father confidence about what he was buying and that introduced the Visa card associated with acquiring the service since this product has an extra component and is to enter a range of services associated with the brand and its own billing process.</p><p>It also helped us to observe in detail the way in which parents and children were being spoken to, how to generate engagement and attractiveness to both audiences and to focus our efforts on important areas.</p>"
+          "content": "<p>Based on the collection of ideas and the insights produced by the exercises, a competitive audit was carried out with direct competitors. <strong>The idea was to analyze the architecture of the products, sections, content, audience, tone and value proposition, among other things.</strong></p><p>As a result of this, we realized that our approach had to address a content that explained not only the benefits of the app, but also accompanied it at the level of strong content on financial literacy, that gave the father confidence about what he was buying and that introduced the Visa card associated with acquiring the service since this product has an extra component and is to enter a range of services associated with the brand and its own billing process.</p><p>It also helped us to observe in detail the way in which parents and children were being spoken to, how to generate engagement and attractiveness to both audiences and to focus our efforts on important areas.</p>",
+          "images": [
+            {
+              "url": "/static/verizon1/section_2_1.png",
+              "height": 705,
+              "mobile_height": 236
+            }
+          ]
         },
         {
           "title": "Pillars",
-          "content": "<p>In order to structure the website well and send the message in a coherent and consistent way, the current pillars of the app were reviewed in detail, and how they responded to the needs of the users, and how they later became features.</p><p>Those features respond to 4 fundamental pillars: <strong>Parental monitoring, reliability, financial literacy and playfulness,</strong> the app needed to convey a sense of security, but also of play, it should be attractive but functional, that duality I consider was the great challenge of creating it, and the website should be an extension of that thought.</p>"
+          "content": "<p>In order to structure the website well and send the message in a coherent and consistent way, the current pillars of the app were reviewed in detail, and how they responded to the needs of the users, and how they later became features.</p><p>Those features respond to 4 fundamental pillars: <strong>Parental monitoring, reliability, financial literacy and playfulness,</strong> the app needed to convey a sense of security, but also of play, it should be attractive but functional, that duality I consider was the great challenge of creating it, and the website should be an extension of that thought.</p>",
+          "images": [
+            {
+              "url": "/static/verizon1/section_3_1.png",
+              "height": 604,
+              "mobile_height": 253
+            }
+          ]
         },
         {
           "title": "Sitemap",
-          "content": "<p>At this point the first sketches of the webiste's sitemap began to be proposed. This consisted of having a site that would showcase the product on the Homepage, highlighting the main features, the sense of security, innovation and that could mainly attract new users to download the app.</p><p>In future versions the architecture of the site was expanded so that we could host a section of articles to consult, a tag system to separate those contents, and a help section that would work with zendesk technology, which included a whole directory of FAQs and How-To's to help the user to find valuable information and that he could also seek help through a chat or an email.</p>"
+          "content": "<p>At this point the first sketches of the webiste's sitemap began to be proposed. This consisted of having a site that would showcase the product on the Homepage, highlighting the main features, the sense of security, innovation and that could mainly attract new users to download the app.</p><p>In future versions the architecture of the site was expanded so that we could host a section of articles to consult, a tag system to separate those contents, and a help section that would work with zendesk technology, which included a whole directory of FAQs and How-To's to help the user to find valuable information and that he could also seek help through a chat or an email.</p>",
+          "images": [
+            {
+              "url": "/static/verizon1/section_4_1.png",
+              "height": 541,
+              "mobile_height": 192
+            }
+          ]
         },
         {
           "title": "Wireframes",
-          "content": "<p>The structure for the first iterations of the wireframes consisted of transmitting the feeling of family in the first instance, together with the action of being able to expand the information present in the hero. From here the content begins to become more specific to more specific information regarding the main features, along with two tabs to try to get the attention of both target audiences, parents and children.</p><p>Then the initial idea was to <strong>highlight the blog content related to financial literacy, the testimonials, and close the circle with the action that completes all the stimulus provided to users: Download the app.</strong></p>"
+          "content": "<p>The structure for the first iterations of the wireframes consisted of transmitting the feeling of family in the first instance, together with the action of being able to expand the information present in the hero. From here the content begins to become more specific to more specific information regarding the main features, along with two tabs to try to get the attention of both target audiences, parents and children.</p><p>Then the initial idea was to <strong>highlight the blog content related to financial literacy, the testimonials, and close the circle with the action that completes all the stimulus provided to users: Download the app.</strong></p>",
+          "images": [
+            {
+              "url": "/static/verizon1/section_5_1.png",
+              "height": 653,
+              "mobile_height": 218
+            },
+            {
+              "url": "/static/verizon1/section_5_2.png",
+              "height": 653,
+              "mobile_height": 218
+            }
+          ],
+          "shadow": "0 1px 21px 0 rgba(0, 0, 0, 0.07)"
         },
         {
           "title": "High fidelity",
@@ -431,7 +472,20 @@
         },
         {
           "title": "Homepage",
-          "content": "The website is designed in such a way as to offer a journey from divergent to convergent, the homepage is designed to forcefully introduce the product, the card associated with the service, its benefits, articles and pricing. All this stimulus must be responded to by an action that satisfies the curiosity of the users, and this is how it was established to have a \"How it works\", to be able to explain the product in more detail."
+          "content": "The website is designed in such a way as to offer a journey from divergent to convergent, the homepage is designed to forcefully introduce the product, the card associated with the service, its benefits, articles and pricing. All this stimulus must be responded to by an action that satisfies the curiosity of the users, and this is how it was established to have a \"How it works\", to be able to explain the product in more detail.",
+          "images": [
+            {
+              "url": "/static/verizon1/section_6_1.png",
+              "height": 653,
+              "mobile_height": 218
+            },
+            {
+              "url": "/static/verizon1/section_6_2.png",
+              "height": 653,
+              "mobile_height": 218
+            }
+          ],
+          "shadow": "0 1px 21px 0 rgba(0, 0, 0, 0.07)"
         },
         {
           "title": "Homepage animations",
@@ -439,23 +493,102 @@
         },
         {
           "title": "Why Family Money? - (How it works)",
-          "content": "The website is designed in such a way as to offer a journey from divergent to convergent, the homepage is designed to forcefully introduce the product, the card associated with the service, its benefits, articles and pricing. All this stimulus must be responded to by an action that satisfies the curiosity of the users, and this is how it was established to have a \"How it works\", to be able to explain the product in more detail."
+          "content": "The website is designed in such a way as to offer a journey from divergent to convergent, the homepage is designed to forcefully introduce the product, the card associated with the service, its benefits, articles and pricing. All this stimulus must be responded to by an action that satisfies the curiosity of the users, and this is how it was established to have a \"How it works\", to be able to explain the product in more detail.",
+          "images": [
+            {
+              "url": "/static/verizon1/section_7_1.png",
+              "height": 653,
+              "mobile_height": 220
+            },
+            {
+              "url": "/static/verizon1/section_7_2.png",
+              "height": 653,
+              "mobile_height": 220
+            }
+          ],
+          "shadow": "0 1px 21px 0 rgba(0, 0, 0, 0.07)"
         },
         {
           "title": "Blog",
-          "content": "The blog was designed thinking about having the ability to host images, tables, videos and tags, which relate that particular article to others, thus providing the user with a chain of information of interest related to what they have just read. A landing was also designed to house all the articles and to be able to categorize them within a submenu that could be scalable over time depending on the new categories."
+          "content": "The blog was designed thinking about having the ability to host images, tables, videos and tags, which relate that particular article to others, thus providing the user with a chain of information of interest related to what they have just read. A landing was also designed to house all the articles and to be able to categorize them within a submenu that could be scalable over time depending on the new categories.",
+          "images": [
+            {
+              "url": "/static/verizon1/section_8_1.png",
+              "height": 653,
+              "mobile_height": 220,
+              "label": " "
+            },
+            {
+              "url": "/static/verizon1/section_8_2.png",
+              "height": 653,
+              "mobile_height": 220
+            },
+            {
+              "url": "/static/verizon1/section_8_3.png",
+              "height": 653,
+              "mobile_height": 220
+            },
+            {
+              "url": "/static/verizon1/section_8_4.png",
+              "height": 653,
+              "mobile_height": 220
+            }
+          ],
+          "shadow": "0 1px 21px 0 rgba(0, 0, 0, 0.07)"
         },
         {
           "title": "How - To’s",
-          "content": "In order to explain the main flows for the primary use cases, it was necessary to do a whole section to explain, as a title, how to use 3 of the most important features of the app. This section is designed so that it can grow over time and that having the necessary data, it can be tested as a performance, having only steps as a tutorial or having videos or something more complex."
+          "content": "In order to explain the main flows for the primary use cases, it was necessary to do a whole section to explain, as a title, how to use 3 of the most important features of the app. This section is designed so that it can grow over time and that having the necessary data, it can be tested as a performance, having only steps as a tutorial or having videos or something more complex.",
+          "images": [
+            {
+              "url": "/static/verizon1/section_9_1.png",
+              "height": 397,
+              "mobile_height": 134
+            }
+          ]
         },
         {
           "title": "Help Center",
-          "content": "The Help Center has been designed around the Zendesk service. It was structured as a section that works with machine learning, so that it interprets which are the most requested contents, the least and based on that, organize the help content offering a faster and more complete experience. besides that, it serves as a center for articles, tutorials and contact with the Family Money team."
+          "content": "The Help Center has been designed around the Zendesk service. It was structured as a section that works with machine learning, so that it interprets which are the most requested contents, the least and based on that, organize the help content offering a faster and more complete experience. besides that, it serves as a center for articles, tutorials and contact with the Family Money team.",
+          "images": [
+            {
+              "url": "/static/verizon1/section_10_1.png",
+              "height": 653,
+              "mobile_height": 217
+            },
+            {
+              "url": "/static/verizon1/section_10_2.png",
+              "height": 653,
+              "mobile_height": 217
+            }
+          ],
+          "shadow": "0 1px 21px 0 rgba(0, 0, 0, 0.07)"
         },
         {
           "title": "Roadmap V2",
-          "content": "Different brainstorming sessions with the owners and stakeholders were necessary to define what the second part of the website would be, even though it had not been released. These exercises seek to have information on what the new challenges are, the expected results and the ideas to solve those challenges. From here, a debrief is made to associate ideas, matches are made with the pillars of the product and the ideas are grouped into clusters. All these ideas then come to be prioritized based on the needs of the users and become concrete features that will be worked on during the following sprints."
+          "content": "Different brainstorming sessions with the owners and stakeholders were necessary to define what the second part of the website would be, even though it had not been released. These exercises seek to have information on what the new challenges are, the expected results and the ideas to solve those challenges. From here, a debrief is made to associate ideas, matches are made with the pillars of the product and the ideas are grouped into clusters. All these ideas then come to be prioritized based on the needs of the users and become concrete features that will be worked on during the following sprints.",
+          "images": [
+            {
+              "url": "/static/verizon1/section_11_1.png",
+              "height": 700,
+              "mobile_height": 297
+            },
+            {
+              "url": "/static/verizon1/section_11_2.png",
+              "height": 461,
+              "mobile_height": 264
+            },
+            {
+              "url": "/static/verizon1/section_11_3.png",
+              "height": 461,
+              "mobile_height": 264
+            },
+            {
+              "url": "/static/verizon1/section_11_4.png",
+              "height": 640,
+              "mobile_height": 284
+            }
+          ]
         },
         {
           "title": "Learnings",

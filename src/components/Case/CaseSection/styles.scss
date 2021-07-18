@@ -20,14 +20,14 @@
   &__content {
     padding: 0 8px;
 
-    @include tablet {
+    @include desktop {
       padding: 0 200px;
     }
   }
 
   &__images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 88px;
 
