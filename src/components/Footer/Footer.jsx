@@ -16,10 +16,10 @@ const Footer = () => {
         Feel free to reach out for collaborations or just a friendly hello 😄
       </p>
       <div className="footer__links">
-        <Link href={`mailto:${contact.email}?subject=Let’s%20Connect`} external>
+        <Link variant={Link.VARIANTS.LIGHT} href={`mailto:${contact.email}?subject=Let’s%20Connect`} external>
           {contact.email}
         </Link>
-        <Link href={`tel:${contact.phone}`} external>
+        <Link variant={Link.VARIANTS.LIGHT} href={`tel:${contact.phone}`} external>
           {contact.phone_display}
         </Link>
       </div>
