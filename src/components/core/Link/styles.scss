@@ -6,6 +6,11 @@
   transition: color 0.2s;
   font-weight: 500;
   cursor: pointer;
+  overflow: visible;
+
+  &:after {
+    content: none;
+  }
 
   &:visited {
     color: inherit;
@@ -28,17 +33,21 @@
 
   &.--underline,
   &.--button {
+    overflow: hidden;
     font-weight: bold;
     color: $primary-text;
     text-decoration: none;
     text-align: center;
 
     letter-spacing: -0.5px;
+
+    &:after {
+      content: ''
+    }
   }
 
   &.--underline {
     font-size: 18px;
-    text-decoration: underline;
     letter-spacing: 0;
   }
 
