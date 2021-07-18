@@ -1,6 +1,13 @@
 @import 'assets/media-queries';
 
 .about {
+  padding-top: 47px;
+
+  p {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
   .color-block {
     height: 375px;
 
@@ -24,12 +31,18 @@
     padding-top: 28px;
 
     @include desktop {
-      padding-top: 10px;
+      padding-top: 22px;
     }
 
     &__cv {
       display: flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
+      margin: 36px 0 64px 0;
+
+      @include desktop {
+        justify-content: flex-end;
+        margin: 0;
+      }
 
       a {
         &:after {
@@ -48,6 +61,10 @@
 
       .link {
         margin-right: 56px;
+
+        @media screen and (min-width: $desktop-width) and (max-width: $max-width) {
+          margin-right: 36px;
+        }
 
         &:last-child {
           margin-right: 0;
@@ -68,10 +85,10 @@
     margin-bottom: 70px;
 
     @include desktop {
-      margin-bottom: 176px;
+      margin-bottom: 198px;
     }
 
-    & div:nth-child(2) {
+    & > div:nth-child(2) {
       margin-top: 48px;
 
       @include desktop {
@@ -83,13 +100,14 @@
   &__section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: -80px;
     padding: 64px 0 88px 0;
 
     @include desktop {
       margin-top: -128px;
       padding: 96px 0 204px 0;
+      justify-content: center;
     }
 
     &__item {

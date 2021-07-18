@@ -2,11 +2,13 @@
 
 .feature {
   margin-top: 32px;
+  margin-right: 40px !important;
   width: 100%;
+  letter-spacing: -0.42px;
 
   @include tablet {
     margin: 0;
-    width: 282px;
+    width: 284px;
   }
 
   & > h4 {
@@ -16,6 +18,7 @@
 
   & > p {
     font-size: 14px;
+    margin-bottom: 0;
   }
 
   & > img {

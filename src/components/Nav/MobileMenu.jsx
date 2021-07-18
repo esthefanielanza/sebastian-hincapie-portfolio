@@ -40,6 +40,7 @@ const MobileMenu = ({
           name, href, external, onClick, successMessage,
         }) => {
           const successMessageClassName = classNames(
+            'nav__menu__success',
             { visible: successMessages[name] },
           );
 
