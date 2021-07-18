@@ -30,7 +30,7 @@ const CaseSection = ({ section }) => {
                 <img
                   style={imgShadow}
                   height={isMobile ? image.mobile_height : image.height}
-                  src={image.url}
+                  src={isMobile && image.url_mobile ? image.url_mobile : image.url}
                   alt={image.label || section.title}
                 />
                 { (image.label || image.sub_label) && (
@@ -54,6 +54,7 @@ CaseSection.propTypes = {
     content: PropTypes.string.isRequired,
     images: PropTypes.arrayOf(PropTypes.shape({
       url: PropTypes.string.isRequired,
+      url_mobile: PropTypes.string,
       label: PropTypes.string,
       sub_label: PropTypes.string,
       height: PropTypes.number,

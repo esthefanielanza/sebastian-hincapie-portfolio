@@ -42,10 +42,12 @@ const CaseOverview = ({ content }) => {
           <span>{content.stack}</span>
         </div>
         <div className="case-overview__right__apps">
-          <Link variant={Link.VARIANTS.UNDERLINE} href={content.website} external>
-            See site live
-          </Link>
-          <Link variant={Link.VARIANTS.UNDERLINE} href={content.app.ios} external>
+          { content.website && (
+            <Link variant={Link.VARIANTS.UNDERLINE} href={content.website} external>
+              See site live
+            </Link>
+          )}
+          <Link variant={Link.VARIANTS.UNDERLINE} href={content.app?.ios} external>
             Download app
           </Link>
         </div>

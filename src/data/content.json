@@ -598,14 +598,29 @@
     },
     {
       "id": 3,
+      "slug": "greatwolf1",
+      "logo": "/static/gwl1/logo.svg",
+      "cover_img": "/static/gwl1/cover.png",
       "name": "Great Wolf Lodge",
+      "overview": "<p>Great Wolf Lodge is the <strong>brand leader in the indoor water park resort industry.</strong> The brand has over 18 Lodges that function all around the United States and Canada.</p><p>They provide water park attractions and each resort features restaurants, arcades, spas and children's activities. Great Wolf Resorts is headquartered in Chicago, Illinois.</p>",
       "type": "UX / UI / Prototyping",
       "slogan": "Helping the largest family of indoor water park resorts in North America improve their booking process through calendars.",
+      "year": "2020 - 2021",
+      "role": "Lead Designer",
+      "collaborators": "Steven Kocian (Senior UX) Adam Velasquez (Senior UI) Tatiana Rincon (Senior UX/UI)",
+      "agency": "Zemoga",
+      "stack": "rWeb 375 - 768 - 1440",
+      "website": "https://www.greatwolf.com/",
+      "trademark": "All trademarks, logos and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only. ",
       "images": {
         "home": {
           "url": "/static/gwl1/home.png",
           "alt": "Helping the largest family of indoor water park resorts in North America improve their booking process through calendars."
         }
+      },
+      "app": {
+        "ios": "https://apps.apple.com/us/app/great-wolf-lodge/id1409843426",
+        "android": "https://play.google.com/store/apps/details?id=com.greatwolf.app&hl=en_US"
       },
       "features": [
         {
@@ -622,6 +637,267 @@
           "icon": "/static/icons/cases/gwl1_3.svg",
           "title": "Improved experience",
           "description": "With the new interaction design for the booking journey, clarity, coherence and a considerable impact on the company's revenue were achieved."
+        }
+      ],
+      "sections": [
+        {
+          "title": "Problem Statement",
+          "content": "<p>Great Wolf has been updating many of their streams in the last few years. Within the primary use case flows is the Booking flow, a very important journey since it makes users funnel to carry out a booking. This flow was performing under expecations as it seems users had some complains around the deals clarity and the overall use of the widget.</p><p>According to the data extracted from Great Wolf users, it is known that 82% of users enter with a promo code looking for cheaper prices, and only 18% are willing to pay full price for the rooms and the experience. So bringing clarity to this flow was very important. Some users did not understand well whether or not they had the code applied, they also did not understand if the dates were applied correctly or not, and finally at the end of the flow, they did not understand why the deal had not applied.</p><p>There were few tools and little clarity, which resulted in two things: Many people left the journey in the middle and never finished it, or on the other hand they reached the end and found a surprise - The promo code disappeared without knowing what was done wrong or why this was happening.</p>"
+        },
+        {
+          "title": "Entry points",
+          "content": "<p>In order to begin to solve the painponts of the flow it is necessary to look at the entry points to the journey. In this case users have two options:</p><p>1. Users enter homepage, then to the offers section, see promos and select one, then the code is applied to the booking widget and they select dates of the stay, guests and book now to see the suites list.</p><p>2. Users gets an email with a promo code, this code is automatically applied to the booking widget and then users start filling in the days of the stay, the guests and click book to get to the suites list.</p>",
+          "images": [
+            {
+              "url": "/static/gwl1/section_1_1.png",
+              "url_mobile": "/static/gwl1/section_1_1_mobile.png",
+              "height": 45,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_1_2.png",
+              "url_mobile": "/static/gwl1/section_1_2_mobile.png",
+              "height": 45
+            }
+          ]
+        },
+        {
+          "title": "Competitive Audit",
+          "content": "<p>After having defined the entry points of the deals and having clarity in the wording, a competitive audit was necessary where we could observe how other websites and applications were approaching the booking. From the way they were offering the deals, the visual language, the logic of the calendars and the information they contained.</p><p>This landscape helped us to look at different perspectives for a similar problem and also helped us to have a broad perspective of all the platforms that used their calendar as a cornerstone for business and user satisfaction. In this analysis I discovered some key points:</p><p>- Most sites do not use a dynamic calendar.</p><p>- Almost all sites have a section dedicated entirely to offers.</p><p>- Not all show prices on calendars.</p><p>- Many elements in that space so small and so sensitive to be overlooked can overwhelm the user.</p><p>In the end some of the conclusions were:</p><p>- Make the calendar dynamic.</p><p>- Build it to be visible up front, not in later stages.</p><p>- Bring more clarity to the offers.</p><p>- Eventually add the prices to the calendar.</p>",
+          "images": [
+            {
+              "url": "/static/gwl1/section_2_1.png",
+              "height": 816
+            }
+          ]
+        },
+        {
+          "title": "Logic Iterations",
+          "content": "<p>The first three versions of the calendar responded to the need of users to be able to find offers within the calendar, clearly see those dates, and possibly know the prices per day. These iterations were focused on trying to understand the logic of the calendars and how they could work against deals and against selected dates outside their window, which made the design even more complex due to the fact that there was little space to capture these variables, and is also a very susceptible space to be easily abandoned if the mechanics are confusing. </p><p>The first design is focused on toggle to see two offers at the same time, so the remaining visual clues are the dates that do not have a deal. </p><p>The second design is focused on always having a favorable, medium and more expensive price range visible, that way the user can quickly discern which days it is best to reserve.</p><p>The third design is structured so that the price ranges described above can be turned on or off, being able to see one, or two, or three types of prices at the same time. Thus giving the user more freedom regarding what they really want to see. It was also the first contact with how this component could scale to be bigger when the prices were implemented below the dates.</p>",
+          "images": [
+            {
+              "url": "/static/gwl1/section_4_1.png",
+              "height": 492
+            },
+            {
+              "url": "/static/gwl1/section_4_2.png",
+              "height": 458
+            },
+            {
+              "url": "/static/gwl1/section_4_3.png",
+              "height": 533
+            }
+          ]
+        },
+        {
+          "title": "Visual iterations",
+          "content": "After doing internal validations regarding the logic of the calendar, and reviewing which were the most viable options to satisfy the user's need at this point, we came to the conclusion that we needed to restrict the amount of visual elements present in the calendar. This is how we arrived at two versions that worked with very similar logic. On the first option, having a single deal at the top, this deal appears coming from the email and from the deals page. In the event that the user does not come from any of these entry points, the offer that appears at the top is a random offer or a featured offer, thus boosting the business so that the user feels that they always have an option to make a booking expending less money but without doing a fest of offers, still maintaining the promotions in a way that feels exclusive and unique. In the second option we had the same functionalities only that instead of locating a single offer, two are located.",
+          "images": [
+            {
+              "url": "/static/gwl1/section_5_1.png",
+              "height": 454
+            },
+            {
+              "url": "/static/gwl1/section_5_2.png",
+              "height": 454
+            },
+            {
+              "url": "/static/gwl1/section_5_3.png",
+              "height": 418
+            },
+            {
+              "url": "/static/gwl1/section_5_4.png",
+              "height": 418
+            }
+          ]
+        },
+        {
+          "title": "User Testing",
+          "content": "<p>At this point the logic was defined, there were only certain precautions regarding the clarity of the deal when the dates were outside the promotion window. We had to make sure that users understood that when they had dates outside the deal, it was removed and they had to modify their dates so that they could get it again. Without this condition the promo code could not be used. In order to verify that this was indeed being clear, we did tests with specific tasks that users had to carry out. Some of these tasks were:</p><p>- Click from the email looking for the offer called Howling</p><p>- Select the dates from January 1 to January 6. (Dates within the deal window)</p><p>- Continue with the normal flow and describe what was happening, until the end of the flow when they reach the suite list. What had they achieved? How did the actions they had to do make them feel?</p><p>-Select from January 1 to January 8. (Dates outside the deal window)</p><p>- Continue with the normal flow and describe what was happening, until the end of the flow when they reach the suite list. What had they achieved? How did the actions they had to do make them feel?</p><p>To carry out these tasks, they were shown 4 versions of the same calendar, in this way we could identify which version was clearer with the deal when the dates are suggested, and when the dates are selected inside and outside the promotion window.</p>",
+          "images": [
+            {
+              "url": "/static/gwl1/section_6_1.png",
+              "height": 399
+            },
+            {
+              "url": "/static/gwl1/section_6_2.png",
+              "height": 399
+            },
+            {
+              "url": "/static/gwl1/section_6_3.png",
+              "height": 399
+            },
+            {
+              "url": "/static/gwl1/section_6_4.png",
+              "height": 399
+            }
+          ]
+        },
+        {
+          "title": "Results",
+          "content": "<p>Our hypothesis is that they were going to have less problems with the points, since the points were not so invasive as to appear that the dates were already preselected, that was one of our main concerns. Surprisingly 13 of the 15 users involved in the test chose option number one, the option with the colored squares as the best of all. These were some of the insights of the study:</p><p>- Most of the users understood the difference between having days inside the deal window and outside the deal window. But the problem they had is that many of them thought that despite having days outside the deal, those who were within the deal were going to have a discount, and this was not true, they were going to lose the offer altogether if they had at least one day outside.</p><p>- Some users thought that they clicked on the red icon that appeared when exiting the calendar looking for information on why the deal was not working.</p><p>- When reaching the end of the flow for some users it was not clear that they had the deal or that they did not have it.</p><p>- Users appreciated more having the check in - check out on the numbers than not having it.</p><p>- Most users liked the chosen colors, it made them feel clear about the deal, and the orange color they felt was necessary to make that difference, without being an indicator of a mistake they had made.</p><p>- Only one user had a strong preference for points, feeling that the filled boxes made the selected dates feel.</p>",
+          "images": [
+            {
+              "url": "/static/gwl1/section_7_1.png",
+              "height": 440,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_7_2.png",
+              "height": 440,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_7_3.png",
+              "height": 440
+            },
+            {
+              "url": "/static/gwl1/section_7_4.png",
+              "height": 440
+            }
+          ]
+        },
+        {
+          "title": "Steps taken",
+          "content": "The first thing we tried to resolve was the confusion regarding having days that could benefit from the deal and days that could not, at the same time. In order to clarify this point we involved the use of toast messages that were present both to tell the user that all the days were inside the window or to tell them that he they some days inside and others outside. Apart from this, we expanded the information outside the calendar to show why the deal was not working and to reinforce this message, when the user arrives. to the suite list they will find an alert.",
+          "images": [
+            {
+              "url": "/static/gwl1/section_8_1.png",
+              "height": 534
+            }
+          ]
+        },
+        {
+          "title": "New banner",
+          "content": "In order to reduce the amount of distraction but without neglecting the important information the banner was providing, I decided to restructure it based on the Nielsen Norman Group guidelines on toggles. This is how I decided to open the space that the toggle has to isolate it from everything else, also changing the wording used and the way the toggle showed when it was on and off. In order to achieve this it was also necessary to make the details become a modal and thus save much more space in the banner.",
+          "images": [
+            {
+              "url": "/static/gwl1/section_9_1.png",
+              "height": 111
+            },
+            {
+              "url": "/static/gwl1/section_9_2.png",
+              "height": 111
+            },
+            {
+              "url": "/static/gwl1/section_9_3.png",
+              "height": 111
+            },
+            {
+              "url": "/static/gwl1/section_9_4.png",
+              "height": 111
+            },
+            {
+              "url": "/static/gwl1/section_9_5.png",
+              "height": 111
+            },
+            {
+              "url": "/static/gwl1/section_9_6.png",
+              "height": 111
+            }
+          ],
+          "padding": 160
+        },
+        {
+          "title": "Logic changes - Internal testing",
+          "content": "<p>Some of the logic that we had been testing and working on was fine, but we needed more rigor in terms of deal clarity to avoid user frustrations at the end of the flow. In order to do this we made several versions to internally populate which one was working better.</p><p>Of all the versions, only one allowed to continue seeing the dates of the deal after having days outside the deals window. The rest of the options contemplated the possibility of removing the suggested ones and leaving only the dates that the user chose. That way you have more clarity that there are some selected days that are out of the window and therefore the offer was no longer going to work. Likewise, the toggle is automatically turned off, and a tooltip would enter the scene in case the user comes from another entry point or leaves and re-enters.</p><p>Other iterations are focused on being able to make the user turn the offer back on almost immediately and thus avoid mental cost interaction for users who are trying to understand what happened and where the offer went.</p><p>In the end, the team's decision was to continue with version four, which provides the user with an intermediate step where they are informed that they have made the decision and are given the option to see the offer again or to continue with the dates they chose, making clear that the conditions to move forward are to have every day within the deal window, or if you have even one on the outside, everything is deactivated and users won’t have the offer applied.</p>",
+          "images": [
+            {
+              "url": "/static/gwl1/section_10_1.png",
+              "height": 497
+            },
+            {
+              "url": "/static/gwl1/section_10_2.png",
+              "height": 497
+            },
+            {
+              "url": "/static/gwl1/section_10_3.png",
+              "height": 497
+            },
+            {
+              "url": "/static/gwl1/section_10_4.png",
+              "height": 497
+            }
+          ]
+        },
+        {
+          "title": "Current calendar",
+          "content": "<p>As with all types of technology and design created to solve specific needs of users, this calendar should be tested in multiple scenarios when it is on the air. And it must be re-iterated when we have new data on how your interaction with users and its effectiveness with respect to booking and offers results.</p><p>Also, as a way of improving the overall user experience, on mobile we managed to go wournd the technical constrains and put the set dates and cancel actions on top of the whole component, that way having less physical and mental cost of interaction as well as saving more space on the top of the clanedar.</p><p>We hope that it will be one of the cornerstones of the experience and we have high expectations that it will be a crucial element to bring an increase in the revenue that the parks receive from now on.</p><p>Accessibility has been a very important part of the entire design process and what you see here is ADA compliant AA. The change of forms when there are dates outside deal window was also very important so that people with achromatopsia can discern that something has changed drastically and thus be able to make their decision regarding the dates.</p>",
+          "images": [
+            {
+              "url": "/static/gwl1/section_11_1.png",
+              "height": 441,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_11_2.png",
+              "height": 441,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_11_3.png",
+              "height": 441,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_11_4.png",
+              "height": 441
+            },
+            {
+              "url": "/static/gwl1/section_11_5.png",
+              "height": 441
+            },
+            {
+              "url": "/static/gwl1/section_11_6.png",
+              "height": 441
+            }
+          ],
+          "padding": 160
+        },
+        {
+          "title": "Rate Calendar",
+          "content": "<p>After starting to implement the current version, I started to design how the calendar would incorporate the rates on each day. This was an extra problem and is an additional scenario to the one we had before: Now we have the scenario of the deal on, off and the normal dates that do not have a deal on, but individual cheaper rates.</p><p>In order to have the three scenarios running at the same time, it was necessary to constantly iterate until we could find a way that they did not step on each other. In this case, the decision was for the toggle to determine which scenarios could exist at the same time, for which when there is toggle on, there are the colors of the deal on and off.</p><p>And when the toggle is off, individual cheap rates can appear. Apart from this, the calendar began to get very heavy when adding the deals, for which I decided to lighten the colors used for the banner, the rates, and the colors of the chosen dates, thus achieving a visually lighter calendar and that the cost mental interaction was not so great having so many variables at the same time in the same place.</p>",
+          "images": [
+            {
+              "url": "/static/gwl1/section_12_1.png",
+              "height": 490,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_12_2.png",
+              "height": 490,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_12_3.png",
+              "height": 490,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl1/section_12_4.png",
+              "height": 490
+            },
+            {
+              "url": "/static/gwl1/section_12_5.png",
+              "height": 382
+            },
+            {
+              "url": "/static/gwl1/section_12_6.png",
+              "height": 382
+            },
+            {
+              "url": "/static/gwl1/section_12_7.png",
+              "height": 432
+            },
+            {
+              "url": "/static/gwl1/section_12_8.png",
+              "height": 432
+            }
+          ]
+        },
+        {
+          "title": "Learnings",
+          "content": "<p>As with all types of technology and design created to solve specific needs of users, this calendar should be tested in multiple scenarios when it is on the air. And it must be re-iterated when we have new data on how your interaction with users and its effectiveness with respect to booking and offers results. We hope that it will be one of the cornerstones of the experience and we have high expectations that it will be a crucial element to bring an increase in the revenue that the parks receive from now on.</p><p>This has been a project that has touched many of the stages of the UX process for a better user experience with a calendar that already exists and that has to improve from many levels, not only from the deal clarity, but also from the costs of interaction, the UI, the logic of the service and the use of the most common functional patterns.</p><p><strong>Some of the most important learning that I acquired in the development of this feature were:</strong></p><p>- Never take anything for granted, users will always have the last word.</p><p>- Make their task as easy as possible, don't make them think too much. Even when you think that what you have is the easiest way, until you test, you can't know.</p><p>- Work around the technical constrains to always put users first.</p><p>- Be very clear with your messages, as specific as possible is the best way.</p><p>- Always keep in mind that there are users with special conditions, and that these conditions can be temporary, permanent or circumstantial, and that number of users must always be considered in the design of any product.</p><p>- Do not build everything from the business or the data, you have to take into account the emotions of the users when using a certain feature, even when you are designing a feature sensitive to negative emotions or the distrust of users, the product must acknowledge that feelings.</p>"
         }
       ]
     },
@@ -657,8 +933,22 @@
     {
       "id": 5,
       "name": "Verizon",
+      "slug": "verizon2",
+      "year": "2020",
+      "role": "Senior UX/UI",
+      "collaborators": "Santiago Correa (Lead Designer)",
+      "agency": "Zemoga",
       "type": "UX / UI / Prototyping",
+      "stack": "Native App",
+      "cover_img": "/static/verizon2/cover.png",
+      "logo": "/static/verizon1/logo.svg",
       "slogan": "Prints and gifts augmented reality app inside the Verizon cloud.",
+      "trademark": "All trademarks, logos and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.",
+      "overview": "<p>Verizon is <strong>one of the world’s leading providers of technology, communications, information and entertainment products and services.</strong></p><p>The company offers voice, data and video services and solutions on networks and platforms, delivering on customers’ demand for mobility, network connectivity, and security.</p>",
+      "app": {
+        "ios": "https://apps.apple.com/us/app/verizon-cloud/id645682444",
+        "android": "https://play.google.com/store/apps/details?id=com.vcast.mediamanager&hl=en_US&gl=US"
+      },
       "images": {
         "home": {
           "url": "/static/verizon2/home.png",
@@ -680,6 +970,178 @@
           "icon": "/static/icons/cases/verizon2_3.svg",
           "title": "Personalized experience",
           "description": "Changes made possible that the users experienced a much more personalized product that responded to their needs in ways they hadn’t experienced before."
+        }
+      ],
+      "sections": [
+        {
+          "title": "Problem Statement",
+          "content": "<p>Verizon has a cloud with multiple services, among which you can back up information, restore and manage content, manage your account and prints & gifts.</p><p>At the time there was already a prints & gifts app, but it had very big problems regarding the user experience:</p><p>- Poor organization of information</p><p>- Unstructured content blocks with a mixed hierarchy</p><p>- Confusing flows that limited the user and they confuse it, causing many of them to leave the process halfway and could not reach the purchase.</p><p>- A Fujifilm SDK that not only made the app look old fashioned but also did not meet up the expectations of the users regarding the tools that it offered.</p>"
+        },
+        {
+          "title": "Categorization",
+          "content": "<p>App categorization was the first problem we wanted to tackle. It was a confusing categorization with nine entry points to the products the app offers. Recategorization was done thinking about cleaning the information, grouping the services into 4 large groups (Prints & cards, Photobooks, Wall Art and home and office)</p><p>This way is much easier for users to find what they are looking for and have fewer surprises regarding each category and what they will find in each one.</p>",
+          "images": [
+            {
+              "url": "/static/verizon2/section_1_1.png",
+              "height": 495
+            },
+            {
+              "url": "/static/verizon2/section_1_2.png",
+              "height": 495
+            }
+          ]
+        },
+        {
+          "title": "Main flow",
+          "content": "<p>In order to begin to correct the flow we had to identify all the problems that it had. Initially we focus on the possible entry points to get to the app and we identify three:</p><p>- Inside the cloud - Contextual menu - Add Album.</p><p>- Select a photo from the cloud, open the contextual menu and send to Pints ​​& Gifts.</p><p>- From the main menu of the Verizon cloud.</p><p>From here we begin to rebuild the flow, so that depending on each of these entry points the user will reach different parts of the flow, saving unnecessary steps and causing less friction.</p><p>The idea is that arriving from the album, you can immediately see the product detail page (without having gone through the type of shipment that I want).</p><p>And if I arrive from the cloud menu or from the addition of a photograph, it should arrive at the homepage to be able to convert that photograph into any of the other products that we offer from the homepage, such as a print or a mug.</p><p>From the selection of the product, it is chosen if it is delivery or pick-up, then an in-line validation of the terms and conditions, and there the builder starts, until reaching the shipping and payment, the last step.</p><p>This flow helped to clarify all the possible scenarios so that a user could bring a photo from the cloud, choose what they wanted to do with it, personalize it, tell us how to send it and pay. All without friction, much clearer than before and with high expectations that it will help users not to abandon the process for the ease of reaching the end.</p>",
+          "images": [
+            {
+              "url": "/static/verizon2/section_2_1.png",
+              "height": 549
+            }
+          ]
+        },
+        {
+          "title": "User Journey",
+          "content": "<p>The focus of the user journey is focused on the user in the first instance exploring all the products we have and that he can do it without having anything added, or being able to add a photo or several from the contextual menu, in this way the amount of tools to start this journey is quite satisfactory.</p><p>After having selected the user must be able to open the builder and customize in a fairly complete way until reaching the final funnel where you will find the cost summary, the cart and the type of shipment and payment, always being able to use the search at any point in the journey.</p>",
+          "images": [
+            {
+              "url": "/static/verizon2/section_3_1.png",
+              "height": 320
+            }
+          ]
+        },
+        {
+          "title": "Wireframes - Arquitecture",
+          "content": "<p>After the discovery stage, the first wireframes of the project began to be designed, these wireframes are focused on showing the structure of the homepage screens, the categories, the display of those categories internally and a second level of navigation following the new one. categorization of items within a category.</p><p>The idea is that before the user can start the builder, the application offers a more basic builder for elements that do not require greater complexity. That is why a way was designed in which the user can preview the print, read about its characteristics, choose sizes, colors and units, all always while seeing the price update. After that, the action generates a bottom sheet for the user to decide the type of service (pick-up or delivery). On the other hand, the architecture of the app began to be structured, uniting the different services with the following screens until the flows were finished.</p>",
+          "images": [
+            {
+              "url": "/static/verizon2/section_4_1.png",
+              "height": 610,
+              "label": " "
+            },
+            {
+              "url": "/static/verizon2/section_4_2.png",
+              "height": 912
+            }
+          ]
+        },
+        {
+          "title": "Drag - Bottom sheet - Interaction",
+          "content": "Several prototypes were necessary for many of the interactions, always seeking that the cost of mental and physical interaction was very little and the friction was so minimal that users did not get out of the flow and reached the end to make the purchase.",
+          "images": [
+            {
+              "url": "/static/verizon2/section_5_1.png",
+              "height": 902
+            }
+          ]
+        },
+        {
+          "title": "Homepage structure",
+          "content": "<p>The homepage of the app had to be the center of all the resources and tools that the user could use, hierarchized in such a way that it was more and more specific when scrolling. This involved prioritizing bids on a paged hero with multiple CTA bids. Then the categories in a not very extensive lateral scroll, then letters with personalized products directly with the photos that the user had on the reel. There were also iterations on second-level filters and on how the letter should be structured when the photo is selected for editing and their interaction.</p><p>Other iterations included a more austere homepage in terms of the content blocks, separating them into large blocks of services such as prints, albums or wall arts, without taking a tour of the products individually.</p>",
+          "images": [
+            {
+              "url": "/static/verizon2/section_6_1.png",
+              "height": 1065
+            },
+            {
+              "url": "/static/verizon2/section_6_2.png",
+              "height": 569
+            },
+            {
+              "url": "/static/verizon2/section_6_3.png",
+              "height": 608
+            },
+            {
+              "url": "/static/verizon2/section_6_4.png",
+              "height": 608
+            }
+          ],
+          "padding": 160
+        },
+        {
+          "title": "VZ Builder",
+          "content": "<p>The original app builder consisted of a Fujifilms SDK built into the platform. The builder had several problems, among which are:</p><p>- UI not integrated with the Verizon design system or with the general look of the brand.</p><p>- Look and feel of the app seemed to be from another era, it gave the impression of being an old technology.</p><p>- The builder appears at a crucial stage of the flow and, according to the data, it was the biggest obstacle that users had to continue, therefore they left at that point.</p><p>- The tools provided by the app were limited and unsatisfactory.</p><p>Given the above, we decided to design a builder from zeroes that could offer many more tools to users, a structure tight to the brand's design system, and a generalized feeling of technology and help. The builder should become the cornerstone of the experience, not only because it is a central part of the flow, but because its customization options are not available to anyone else on the market. After auditing the builders of several of the direct or indirect competitors, practically no one offers augmented reality options to preview what you are going to buy.</p>",
+          "images": [
+            {
+              "url": "/static/verizon2/section_7_1.png",
+              "height": 370
+            }
+          ]
+        },
+        {
+          "title": "Prints",
+          "content": "The homepage of the prints screen allows the user to see the product that they preselected and edited to see it in a normal view, in 3D or in augmented reality, all from the same screen. Apart from this, it offers many customization elements such as sizes, papers, rotation, filters, colors, etc. Being able to always see the updated price with each action, return a step of the edition or make a complete erase of that specific step.",
+          "images": [
+            {
+              "url": "/static/verizon2/section_8_1.png",
+              "height": 409
+            },
+            {
+              "url": "/static/verizon2/section_8_2.png",
+              "height": 409
+            },
+            {
+              "url": "/static/verizon2/section_8_3.png",
+              "height": 409
+            },
+            {
+              "url": "/static/verizon2/section_8_4.png",
+              "height": 409
+            },
+            {
+              "url": "/static/verizon2/section_8_5.png",
+              "height": 409
+            }
+          ]
+        },
+        {
+          "title": "Wall Art",
+          "content": "This part works very similar in structural terms to the prints section, only it is aimed at having editing tools for the pieces that can be hung on the wall or put on a shelf. This involves working with materials and with extra editing and customization options for the frames. These options include putting texts, backgrounds, selecting different types of frames and their materials and colors, and a lot of variety in the size of each print.",
+          "images": [
+            {
+              "url": "/static/verizon2/section_9_1.png",
+              "height": 409
+            },
+            {
+              "url": "/static/verizon2/section_9_2.png",
+              "height": 409
+            },
+            {
+              "url": "/static/verizon2/section_9_3.png",
+              "height": 409
+            },
+            {
+              "url": "/static/verizon2/section_9_4.png",
+              "height": 409
+            },
+            {
+              "url": "/static/verizon2/section_9_5.png",
+              "height": 409
+            }
+          ]
+        },
+        {
+          "title": "Augmented Reality",
+          "content": "<p>Augmented reality is not only a very useful technology for users at this point in the flow, but it also constitutes a competitive advantage over other platforms and that we hope will positively impact revenue and the termination of the funnel by users.</p><p>In order to carry out the construction of this part of the builder, many iterations and internal tests were carried out, with small focus groups to know which tools were the most appropriate and also which generated the lowest interaction costs.</p><p>The idea is to be able to offer the same technological capabilities of a normal or 3D view but views in real time with the view in augmented reality, and helping the user at all times. to be able to visualize the object anywhere in your home, with simple instructions, and fairly clear conditions such as light and space.</p>",
+          "images": [
+            {
+              "url": "/static/verizon2/section_10_1.png",
+              "height": 391
+            },
+            {
+              "url": "/static/verizon2/section_10_2.png",
+              "height": 674
+            },
+            {
+              "url": "/static/verizon2/section_10_3.png",
+              "height": 674
+            }
+          ]
+        },
+        {
+          "title": "Learnings",
+          "content": "<p>This project was quite special because I was able to work with the restructuring of the flows from the beginning, in an agile way that would lead us to quick conclusions with hotfixes in very important interactions for the user and for the business. Some of those learnings were:</p><p>- Always include developers from the first moment to make them part of the conversation and make early technical discoveries.</p><p>- Internally tests some hypotheses to know if it is made or broken.</p><p>- Always offer a little more than what they expect from your product, but not so much that the user gets lost.</p><p>- The research shows ways to follow but the hypotheses must always be validated.</p><p>- Sometimes the simplest way in design is the simplest way for the user, you don't have to overcomplicate things without a clear foundation.</p><p>- Your team should always choose or develop the technology after knowing the user. That way you have enough time to know fully what it is capable of doing and you can design around it.</p>"
         }
       ]
     },
