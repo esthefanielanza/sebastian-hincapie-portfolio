@@ -27,6 +27,17 @@
       padding-top: 10px;
     }
 
+    &__cv {
+      display: flex;
+      justify-content: flex-end;
+
+      a {
+        &:after {
+          bottom: 6px;
+        }
+      }
+    }
+
     .social {
       display: flex;
       justify-content: center;

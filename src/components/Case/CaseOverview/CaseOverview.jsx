@@ -47,9 +47,11 @@ const CaseOverview = ({ content }) => {
               See site live
             </Link>
           )}
-          <Link variant={Link.VARIANTS.UNDERLINE} href={content.app?.ios} external>
-            Download app
-          </Link>
+          { content.app && (
+            <Link variant={Link.VARIANTS.UNDERLINE} href={content.app?.ios} external>
+              Download app
+            </Link>
+          )}
         </div>
       </div>
     </div>

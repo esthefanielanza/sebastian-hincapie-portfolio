@@ -6,6 +6,11 @@
   transition: color 0.2s;
   font-weight: 500;
   cursor: pointer;
+  overflow: visible;
+
+  &:after {
+    content: none;
+  }
 
   &:visited {
     color: inherit;
@@ -28,6 +33,7 @@
 
   &.--underline,
   &.--button {
+    overflow: hidden;
     font-weight: bold;
     color: $primary-text;
     text-decoration: none;
@@ -35,20 +41,13 @@
 
     letter-spacing: -0.5px;
 
-    &:active {
-      color: $link-text;
-    }
-
-    @include tablet {
-      &:hover {
-        color: $link-text;
-      }
+    &:after {
+      content: ''
     }
   }
 
   &.--underline {
     font-size: 18px;
-    text-decoration: underline;
     letter-spacing: 0;
   }
 
@@ -57,6 +56,10 @@
 
     &:hover {
       transform: scale(1.1);
+    }
+
+    &:after {
+      height: 0;
     }
   }
 }
