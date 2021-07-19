@@ -13,10 +13,10 @@ const CaseHero = ({
     <div className="case-hero">
       <div className="case-hero__wrapper">
         <div className="case-hero__wrapper__left">
-          <img src={logo} alt={`${name} logo`} />
+          <img src={process.env.PUBLIC_URL + logo} alt={`${name} logo`} />
           <p>{slogan}</p>
         </div>
-        { image && <img src={image} alt={slogan} /> }
+        { image && <img src={process.env.PUBLIC_URL + image} alt={slogan} /> }
       </div>
     </div>
   );

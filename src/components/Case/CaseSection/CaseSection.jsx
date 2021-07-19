@@ -30,7 +30,8 @@ const CaseSection = ({ section }) => {
                 <img
                   style={imgShadow}
                   height={isMobile ? image.mobile_height : image.height}
-                  src={isMobile && image.url_mobile ? image.url_mobile : image.url}
+                  src={process.env.PUBLIC_URL
+                    + (isMobile && image.url_mobile ? image.url_mobile : image.url)}
                   alt={image.label || section.title}
                 />
                 { (image.label || image.sub_label) && (

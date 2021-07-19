@@ -38,7 +38,7 @@ const About = () => {
       }, idx) => (
         <Columns key={text} className="about__column" gap="8%" reverse={Boolean(idx % 2)}>
           {image
-            ? <div className="about__column__img"><img src={image.url} alt={image.alt} /></div>
+            ? <div className="about__column__img"><img src={process.env.PUBLIC_URL + image.url} alt={image.alt} /></div>
             : <ColorBlock />}
           <div>
             {title && <h1>{title}</h1>}

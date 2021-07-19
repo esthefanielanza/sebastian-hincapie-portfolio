@@ -17,7 +17,7 @@ const HomeCase = ({ content, image }) => {
             <Button> See use case </Button>
           </Link>
         </div>
-        <img src={image.url} alt={image.alt} />
+        <img src={process.env.PUBLIC_URL + image.url} alt={image.alt} />
       </div>
       <div className="home-case__features">
         {

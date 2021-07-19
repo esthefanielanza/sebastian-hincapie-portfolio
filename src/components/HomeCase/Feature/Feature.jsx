@@ -6,7 +6,7 @@ import './styles.scss';
 const Feature = ({ feature }) => {
   return (
     <div className="feature">
-      <img src={feature.icon} alt={feature.title} />
+      <img src={process.env.PUBLIC_URL + feature.icon} alt={feature.title} />
       <h4>{feature.title}</h4>
       <p>{feature.description}</p>
     </div>
