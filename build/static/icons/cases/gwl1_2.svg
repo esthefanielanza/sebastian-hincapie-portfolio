@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-579.000000, -3668.000000) translate(579.000000, 3668.000000)">
+                <rect width="57" height="57" fill="#F4F4F4" rx="4"/>
+                <g stroke="#24384E" transform="translate(12.000000, 11.000000)">
+                    <g stroke-linecap="round" stroke-width="1.566">
+                        <path d="M0 0L7.821 7.872" transform="translate(-0.000000, 14.000000)"/>
+                        <path d="M0 0L7.821 7.872" transform="translate(-0.000000, 14.000000) translate(3.910510, 3.936069) scale(-1, 1) translate(-3.910510, -3.936069)"/>
+                    </g>
+                    <g stroke-linecap="round" stroke-width="1.566">
+                        <g>
+                            <path d="M0 3.458L3.288 6.881" transform="translate(11.590909, 28.000000) translate(0.000000, 0.000000)"/>
+                            <path d="M3.322 0L10.045 7" transform="translate(11.590909, 28.000000) translate(0.000000, 0.000000) translate(6.683537, 3.500000) scale(-1, 1) translate(-6.683537, -3.500000)"/>
+                        </g>
+                    </g>
+                    <ellipse cx="29.364" cy="17.889" stroke-width="1.175" rx="4.049" ry="4.079"/>
+                    <ellipse cx="16.227" cy="4.667" stroke-width="1.175" rx="4.049" ry="4.079"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sebastian-hincapie-portfolio/static/css/main.3e6350d3.chunk.css",
+    "main.js": "/sebastian-hincapie-portfolio/static/js/main.b6b3851e.chunk.js",
+    "main.js.map": "/sebastian-hincapie-portfolio/static/js/main.b6b3851e.chunk.js.map",
+    "runtime-main.js": "/sebastian-hincapie-portfolio/static/js/runtime-main.29bda699.js",
+    "runtime-main.js.map": "/sebastian-hincapie-portfolio/static/js/runtime-main.29bda699.js.map",
+    "static/js/2.72e0d8b2.chunk.js": "/sebastian-hincapie-portfolio/static/js/2.72e0d8b2.chunk.js",
+    "static/js/2.72e0d8b2.chunk.js.map": "/sebastian-hincapie-portfolio/static/js/2.72e0d8b2.chunk.js.map",
+    "index.html": "/sebastian-hincapie-portfolio/index.html",
+    "static/css/main.3e6350d3.chunk.css.map": "/sebastian-hincapie-portfolio/static/css/main.3e6350d3.chunk.css.map",
+    "static/js/2.72e0d8b2.chunk.js.LICENSE.txt": "/sebastian-hincapie-portfolio/static/js/2.72e0d8b2.chunk.js.LICENSE.txt",
+    "static/media/behance.080ddc8e.svg": "/sebastian-hincapie-portfolio/static/media/behance.080ddc8e.svg",
+    "static/media/close.24aeaf5a.svg": "/sebastian-hincapie-portfolio/static/media/close.24aeaf5a.svg",
+    "static/media/dribble.18ffcce6.svg": "/sebastian-hincapie-portfolio/static/media/dribble.18ffcce6.svg",
+    "static/media/instagram.45609d26.svg": "/sebastian-hincapie-portfolio/static/media/instagram.45609d26.svg",
+    "static/media/linkedin.8c148eaf.svg": "/sebastian-hincapie-portfolio/static/media/linkedin.8c148eaf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29bda699.js",
+    "static/js/2.72e0d8b2.chunk.js",
+    "static/css/main.3e6350d3.chunk.css",
+    "static/js/main.b6b3851e.chunk.js"
+  ]
+}
