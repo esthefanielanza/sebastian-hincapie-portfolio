@@ -343,7 +343,7 @@
             {
               "url": "/static/walmart/section_5_1.png",
               "height": 651,
-              "mobile_height": 100
+              "mobile_height": 312
             }
           ]
         },
@@ -607,7 +607,7 @@
       "slogan": "Helping the largest family of indoor water park resorts in North America improve their booking process through calendars.",
       "year": "2020 - 2021",
       "role": "Lead Designer",
-      "collaborators": "Steven Kocian (Senior UX) Adam Velasquez (Senior UI) Tatiana Rincon (Senior UX/UI)",
+      "collaborators": "Steven Kocian (Senior UX) <br/> Adam Velasquez (Senior UI) <br/> Tatiana Rincon (Senior UX/UI)",
       "agency": "Zemoga",
       "stack": "rWeb 375 - 768 - 1440",
       "website": "https://www.greatwolf.com/",
@@ -663,7 +663,7 @@
         },
         {
           "title": "Competitive Audit",
-          "content": "<p>After having defined the entry points of the deals and having clarity in the wording, a competitive audit was necessary where we could observe how other websites and applications were approaching the booking. From the way they were offering the deals, the visual language, the logic of the calendars and the information they contained.</p><p>This landscape helped us to look at different perspectives for a similar problem and also helped us to have a broad perspective of all the platforms that used their calendar as a cornerstone for business and user satisfaction. In this analysis I discovered some key points:</p><p>- Most sites do not use a dynamic calendar.</p><p>- Almost all sites have a section dedicated entirely to offers.</p><p>- Not all show prices on calendars.</p><p>- Many elements in that space so small and so sensitive to be overlooked can overwhelm the user.</p><p>In the end some of the conclusions were:</p><p>- Make the calendar dynamic.</p><p>- Build it to be visible up front, not in later stages.</p><p>- Bring more clarity to the offers.</p><p>- Eventually add the prices to the calendar.</p>",
+          "content": "<p>After having defined the entry points of the deals and having clarity in the wording, a competitive audit was necessary where we could observe how other websites and applications were approaching the booking. From the way they were offering the deals, the visual language, the logic of the calendars and the information they contained.</p><p>This landscape helped us to look at different perspectives for a similar problem and also helped us to have a broad perspective of all the platforms that used their calendar as a cornerstone for business and user satisfaction. In this analysis I discovered some key points:</p><p>- Most sites do not use a dynamic calendar.</p><p>- Almost all sites have a section dedicated entirely to offers.</p><p>- Not all show prices on calendars.</p><p>- Many elements in that space so small and so sensitive to be overlooked can overwhelm the user.</p><p><strong>In the end some of the conclusions were:</strong></p><p>- Make the calendar dynamic.</p><p>- Build it to be visible up front, not in later stages.</p><p>- Bring more clarity to the offers.</p><p>- Eventually add the prices to the calendar.</p>",
           "images": [
             {
               "url": "/static/gwl1/section_2_1.png",
@@ -973,7 +973,11 @@
         },
         {
           "title": "Learnings",
-          "content": "<p>This was a fast project whit limited time for discovery stages, but made me a more reactive designer for when the scenarios and timeframes are tight. Some of the learnings were:</p><p>- Discover early in the process the key aspects that are tide to you key metrics, and start working around those.</p><p>- Your team should be able to know identify easily what success looks like and what doesn’t. What should be expected from this landing.</p><p>- When the site is just a landing users can feel like they are heading blindly to get or buy something, so you should give the user a previous tour so that they know what everything is about, what is obtained, and thus show the value proposition, after that, you should lead them to the concrete action (CTA).</p><p>-  Consider always having special moments though the site, could be the whole feeling of it or just a concrete memorable action, or a social media with tons of personality.</p>"
+          "content": "<p>This was a fast project with limited time for discovery stages, but made me a more reactive designer for when the scenarios and timeframes are tight. Some of the learnings were:</p><p>- Discover early in the process the key aspects that are tide to you key metrics, and start working around those.</p><p>- Your team should be able to know identify easily what success looks like and what doesn’t. What should be expected from this landing.</p><p>- When the site is just a landing users can feel like they are heading blindly to get or buy something, so you should give the user a previous tour so that they know what everything is about, what is obtained, and thus show the value proposition, after that, you should lead them to the concrete action (CTA).</p><p>-  Consider always having special moments though the site, could be the whole feeling of it or just a concrete memorable action, or a social media with tons of personality.</p>"
+        },
+        {
+          "title": "Impact",
+          "content": "<p>The site lasted 2 months, in which all the objectives set at the beginning were met, leaving more than 16,000 new leads interested in acquiring the product, improving it and learning more about the IQOS Coach. The campaign was successful and spread to the website and social networks with good numbers in the sales of the device.</p><p>The success of the site is not only measured in the number of leads but also in the interest that aroused in the different communication platforms of the brand. This implies having more voice to voice and gradually going through the stage of teaching the product, one of the great complications of acquiring it is the little understanding of how it works, and this site helped to achieve a greater understanding and curiosity about the product.</p>"
         }
       ]
     },
@@ -1202,7 +1206,7 @@
       "overview": "<p>Great Wolf Lodge is the <strong>brand leader in the indoor water park resort industry.</strong> The brand has over 18 Lodges that function all around the United States and Canada.</p><p>They provide water park attractions and each resort features restaurants, arcades, spas and children's activities. Great Wolf Resorts is headquartered in Chicago, Illinois.</p>",
       "year": "2020 - 2021",
       "role": "Lead Designer",
-      "collaborators": "Tatiana Rincon (Senior UX) Adam Velasquez (Senior UI) Steven Kocian(Senior UX/UI)",
+      "collaborators": "Tatiana Rincon (Senior UX)<br/> Adam Velasquez (Senior UI) <br/>Steven Kocian(Senior UX/UI)",
       "agency": "Zemoga",
       "stack": "Native App",
       "website": "https://www.greatwolf.com/",

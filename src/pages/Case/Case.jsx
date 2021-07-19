@@ -9,7 +9,6 @@ import {
 } from 'components/Case';
 
 import content from 'data/content.json';
-import './styles.scss';
 
 const getCaseContent = (slug) => {
   return content.cases.find((c) => c.slug === slug);

@@ -9,10 +9,12 @@
   left: 0;
   margin-left: -16px;
   min-height: 592px;
+  margin-top: 48px;
   
   @include tablet {
     margin-left: -65px;
     min-height: 558px;
+    margin-top: 0px;
   }
 
   @media (min-width: $max-width) {
@@ -27,6 +29,7 @@
     width: 100%;
     max-width: $max-width;
     padding: 80px 0 0 0;
+    overflow: hidden;
   
     display: flex;
     flex-direction: column;
@@ -34,6 +37,7 @@
 
     @include tablet {
       flex-direction: row;
+      justify-content: space-between;
       padding: 0 0 0 130px;
       margin-left: -65px;
     }
@@ -42,19 +46,36 @@
       width: 100%;
 
       @include tablet {
-        width: 70%;
+        height: 558px;
+        width: auto;
       }
     }
 
     &__left {
+      padding: 0 24px;
+
       & > img {
-        width: 212px;
+        height: 50px;
         margin-bottom: 32px;
+        max-width: 80%;
+
+        padding: 0 8px;
+
+        @include tablet {
+          padding: 0;
+        }
       }
     
       & > p {
         width: 350px;
         font-size: 18px;
+        padding: 0 8px;
+        margin-bottom: 80px;
+
+        @include tablet {
+          padding: 0;
+          margin-bottom: 36px;
+        }
       }
     }
   }

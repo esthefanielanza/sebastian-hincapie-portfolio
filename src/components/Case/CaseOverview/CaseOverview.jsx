@@ -27,10 +27,9 @@ const CaseOverview = ({ content }) => {
           </p>
         </div>
         <div className="case-overview__right__item">
-          <p>
-            <b>Collaborators: </b>
-            {content.collaborators}
-          </p>
+          <HTML tag="p">
+            {`<b>Collaborators: </b>${content.collaborators}`}
+          </HTML>
         </div>
         <div className="case-overview__right__item">
           <p>

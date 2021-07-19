@@ -23,6 +23,14 @@
     @include desktop {
       padding: 0 200px;
     }
+
+    @media screen and (min-width: $desktop-width) and (max-width: $max-width) {
+      padding: 0 100px;
+    }
+  
+    @media screen and (min-width: 1024px) and (max-width: 1140px) {
+      padding: 0;
+    }
   }
 
   &__images {
