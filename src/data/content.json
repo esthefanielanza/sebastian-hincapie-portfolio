@@ -1290,7 +1290,7 @@
       "agency": "Zemoga",
       "stack": "Native App",
       "website": "https://www.greatwolf.com/",
-      "cover_img": "/static/gwl1/cover.png",
+      "cover_img": "/static/gwl2/cover.png",
       "logo": "/static/gwl1/logo.svg",
       "app": {
         "ios": "https://apps.apple.com/us/app/great-wolf-lodge/id1409843426",
@@ -1326,39 +1326,147 @@
         },
         {
           "title": "Research",
-          "content": "<p>To begin to understand the problem, we needed to investigate how direct and indirect competitors were approaching their digital products when their users were enjoying the experience, therefore we wanted to investigate in depth what were the actions and tools that they made available to the users, the hierarchy, the content blocks and their percentage on the screen and the folds. We investigated some specific elements such as interactive maps, search, notifications, and support. All essential elements that we planned in advance to use in our own experience. From here we look at who offered these experiences, how they did it and why.</p><p>This led us to generate several hypotheses that we would later use to redesign our own product. Some of these insights were:</p><p>- The map is the cornerstone of the on-site experience of any parks app.</p><p>- The search widget is not widely used, we suppose that it is because users want to go through the options, they do not have something specific to search for.</p><p>- The hours at the attractions are an essential tool for the experience.</p><p>- Having well-implemented notifications, and with a differentiation in the category to which they belong, make the experience more user-friendly.</p><p>- No app used support (chat) as a central element.</p>"
+          "content": "<p>To begin to understand the problem, we needed to investigate how direct and indirect competitors were approaching their digital products when their users were enjoying the experience, therefore we wanted to investigate in depth what were the actions and tools that they made available to the users, the hierarchy, the content blocks and their percentage on the screen and the folds. We investigated some specific elements such as interactive maps, search, notifications, and support. All essential elements that we planned in advance to use in our own experience. From here we look at who offered these experiences, how they did it and why.</p><p>This led us to generate several hypotheses that we would later use to redesign our own product. Some of these insights were:</p><p>- The map is the cornerstone of the on-site experience of any parks app.</p><p>- The search widget is not widely used, we suppose that it is because users want to go through the options, they do not have something specific to search for.</p><p>- The hours at the attractions are an essential tool for the experience.</p><p>- Having well-implemented notifications, and with a differentiation in the category to which they belong, make the experience more user-friendly.</p><p>- No app used support (chat) as a central element.</p>",
+          "images": [
+            {
+              "url": "/static/gwl2/section_1_1.png",
+              "height": 423
+            }
+          ]
         },
         {
           "title": "Content block analysis",
-          "content": "<p>We needed to analyze in a more detailed way how the competitors were distributing the content blocks and in what percentages. In this way we could know what they consider more important and less important on their homepages, and with what density they structured those contents within the interface.</p><p>This analysis allowed us to divide the content into elements such as notifications, categories, CTAs, value propositions, services, etc. and to be able to have a more detailed view of how they were doing it and why we thought it was that way.</p>"
+          "content": "<p>We needed to analyze in a more detailed way how the competitors were distributing the content blocks and in what percentages. In this way we could know what they consider more important and less important on their homepages, and with what density they structured those contents within the interface.</p><p>This analysis allowed us to divide the content into elements such as notifications, categories, CTAs, value propositions, services, etc. and to be able to have a more detailed view of how they were doing it and why we thought it was that way.</p>",
+          "images": [
+            {
+              "url": "/static/gwl2/section_2_1.png",
+              "height": 708
+            }
+          ]
         },
         {
           "title": "Brainstorming collaborative sessions",
-          "content": "<p>Already knowing the panorama of the competitors and their contents and hierarchies, we wanted to go on to do some brainstorming sessions, having a space that we could visit constantly to leave our ideas about the structuring of the app and the homepage.</p><p>These sessions had several objectives:</p><p>- Proposal of navigation. - Content of each tab. (Architecture)</p><p>- Current, ideal and future features.</p><p>- Prioritization of features in a matrix of efforts.</p><p>The sessions resulted in being able to know the impressions of the team from different perspectives (Product, design, development) and thus begin to draw lines that unite the different visions that each team had about what the app should be in the future. At the same time, it helped to begin to structure the architecture, future features not contemplated in this phase and the possible efforts that all those items would imply.</p>"
+          "content": "<p>Already knowing the panorama of the competitors and their contents and hierarchies, we wanted to go on to do some brainstorming sessions, having a space that we could visit constantly to leave our ideas about the structuring of the app and the homepage.</p><p>These sessions had several objectives:</p><p>- Proposal of navigation. - Content of each tab. (Architecture)</p><p>- Current, ideal and future features.</p><p>- Prioritization of features in a matrix of efforts.</p><p>The sessions resulted in being able to know the impressions of the team from different perspectives (Product, design, development) and thus begin to draw lines that unite the different visions that each team had about what the app should be in the future. At the same time, it helped to begin to structure the architecture, future features not contemplated in this phase and the possible efforts that all those items would imply.</p>",
+          "images": [
+            {
+              "url": "/static/gwl2/section_3_1.png",
+              "height": 660
+            }
+          ]
         },
         {
           "title": "Data analysis",
-          "content": "We already had some data to understand how the app was currently working and begin to clarify how this data would influence the network routes of the application, and understand why. Here in these analyzes you could see different events, the usage count, the number of users, the number of events per user and the total percentage."
+          "content": "We already had some data to understand how the app was currently working and begin to clarify how this data would influence the network routes of the application, and understand why. Here in these analyzes you could see different events, the usage count, the number of users, the number of events per user and the total percentage.",
+          "images": [
+            {
+              "url": "/static/gwl2/section_4_1.png",
+              "height": 490
+            }
+          ]
         },
         {
           "title": "Red Routes",
-          "content": "<p>I decided to do a red routes exercise at this point to be able to identify which were those primary use cases and to which flow of the current application they correspond and to which of the future they would correspond.</p><p>The exercise was also not going to help identify which flows would be tied to critical product metric, key value drivers and overall being successfull. This gave us the guidelines to know where there should be less cost of mental and physical interaction, and where to put the complexity burden and finally being able to reduce the use cases and functionality meaning that the users would have less distracting elements and less MIC (mental interaction cost).</p><p>In this way we were making sure to prioritize the needs of the users, facilitate alignment between the product, its owners and the stakeholders, help avoid the introduction of weird features and have in more general terms, a much better experience.</p>"
+          "content": "<p>I decided to do a red routes exercise at this point to be able to identify which were those primary use cases and to which flow of the current application they correspond and to which of the future they would correspond.</p><p>The exercise was also not going to help identify which flows would be tied to critical product metric, key value drivers and overall being successfull. This gave us the guidelines to know where there should be less cost of mental and physical interaction, and where to put the complexity burden and finally being able to reduce the use cases and functionality meaning that the users would have less distracting elements and less MIC (mental interaction cost).</p><p>In this way we were making sure to prioritize the needs of the users, facilitate alignment between the product, its owners and the stakeholders, help avoid the introduction of weird features and have in more general terms, a much better experience.</p>",
+          "images": [
+            {
+              "url": "/static/gwl2/section_5_1.png",
+              "height": 596
+            }
+          ]
         },
         {
           "title": "Recommendations",
-          "content": "<p>All of the above began to give rise to a series of recommendations for the redesign of the homepage. Recommendations included:</p><p>- Divide the experience according to the red routes - (Core experience - Main experience - Support experience)</p><p>- The illustration had to be put in a mask at the top to reduce the cost of mental interaction (In the current app the illustration appears in the background and the functional elements on top)</p><p>- You have to take care of the first fold so as not to put too many elements and go from divergence to convergence. - The app should respond to the moment the user uses it. That stage can change between; Not having a reservation, having a reservation. but not being in the park and finally enjoying the attractions on site.</p><p>- Analyze in detail heat maps of interaction with the screen to know where to locate the most important actions.</p>"
+          "content": "<p>All of the above began to give rise to a series of recommendations for the redesign of the homepage. Recommendations included:</p><p>- Divide the experience according to the red routes - (Core experience - Main experience - Support experience)</p><p>- The illustration had to be put in a mask at the top to reduce the cost of mental interaction (In the current app the illustration appears in the background and the functional elements on top)</p><p>- You have to take care of the first fold so as not to put too many elements and go from divergence to convergence. - The app should respond to the moment the user uses it. That stage can change between; Not having a reservation, having a reservation. but not being in the park and finally enjoying the attractions on site.</p><p>- Analyze in detail heat maps of interaction with the screen to know where to locate the most important actions.</p>",
+          "images": [
+            {
+              "url": "/static/gwl2/section_6_1.png",
+              "height": 752
+            },
+            {
+              "url": "/static/gwl2/section_6_2.png",
+              "height": 558
+            }
+          ]
         },
         {
           "title": "Use cases",
-          "content": "<p>Part of making the experience much more complete was to customize it depending on the moment and the state in which the app is used. For this we made wireframes that reflect the structural changes that exist depending on the three use cases (exploring, planning, enjoying).</p><p>When you are exploring, the idea is to have as main actions the booking, compare passes, see the things that can be done, type of food, and the value proposition.</p><p>When planning, the ideal is to see the reservation, see the events of those days, see the water park, the attractions and buy add-ons.</p><p>When you are in the park, the essential thing is to go to events, the water park and attractions, be clearly notified of any news and be able to order food.</p>"
+          "content": "<p>Part of making the experience much more complete was to customize it depending on the moment and the state in which the app is used. For this we made wireframes that reflect the structural changes that exist depending on the three use cases (exploring, planning, enjoying).</p><p>When you are exploring, the idea is to have as main actions the booking, compare passes, see the things that can be done, type of food, and the value proposition.</p><p>When planning, the ideal is to see the reservation, see the events of those days, see the water park, the attractions and buy add-ons.</p><p>When you are in the park, the essential thing is to go to events, the water park and attractions, be clearly notified of any news and be able to order food.</p>",
+          "images": [
+            {
+              "url": "/static/gwl2/section_7_1.png",
+              "height": 546
+            },
+            {
+              "url": "/static/gwl2/section_7_2.png",
+              "height": 546
+            },
+            {
+              "url": "/static/gwl2/section_7_3.png",
+              "height": 546
+            },
+            {
+              "url": "/static/gwl2/section_7_4.png",
+              "height": 574
+            }
+          ]
         },
         {
           "title": "UI",
-          "content": "<p>For the UI I was doing more consulting work than execution, all the final design is done by Tatiana Rincon, who has done a truly impressive job in trying to transmit new and exciting sensations to this interface, with very interesting details and ideas, a very clean, clear and functional structure.</p><p>The idea is that the UI changes to the season the user is in and that the main illustration can change depending on that variable, or the night and the day, which is going to be something really impressive to see.</p>"
+          "content": "<p>For the UI I was doing more consulting work than execution, all the final design is done by Tatiana Rincon, who has done a truly impressive job in trying to transmit new and exciting sensations to this interface, with very interesting details and ideas, a very clean, clear and functional structure.</p><p>The idea is that the UI changes to the season the user is in and that the main illustration can change depending on that variable, or the night and the day, which is going to be something really impressive to see.</p>",
+          "images": [
+            {
+              "url": "/static/gwl2/section_8_1.png",
+              "height": 600,
+              "label": " "
+            },
+            {
+              "url": "/static/gwl2/section_8_2.png",
+              "height": 753
+            },
+            {
+              "url": "/static/gwl2/section_8_3.png",
+              "height": 753
+            },
+            {
+              "url": "/static/gwl2/section_8_4.png",
+              "height": 753
+            }
+          ]
         },
         {
           "title": "App Nav",
-          "content": "<p>The restructuring of the nav involved brainstorming exercises to re-categorize elements (card sorting) and to redesign the architecture. From there we were able to build what the final navigation would be in terms of the content it offers and start thinking about how the inactive active states will look like, and the microanimations that will give life to that nav, personally I wanted that the nav was a present element that apart from its functionality, offered memorable details each time it is used.</p><p>Many iterations were made until we reached a very defined style with a wilderness theme that accompanied the icons, we also considered having labeling to help the understanding of each tab. It is important to clarify that there are tabs that will not be present yet (like the map) because there are technical constrains that do not allow us to build those pages at the moment, but that will be present in later stages.</p>"
+          "content": "<p>The restructuring of the nav involved brainstorming exercises to re-categorize elements (card sorting) and to redesign the architecture. From there we were able to build what the final navigation would be in terms of the content it offers and start thinking about how the inactive active states will look like, and the microanimations that will give life to that nav, personally I wanted that the nav was a present element that apart from its functionality, offered memorable details each time it is used.</p><p>Many iterations were made until we reached a very defined style with a wilderness theme that accompanied the icons, we also considered having labeling to help the understanding of each tab. It is important to clarify that there are tabs that will not be present yet (like the map) because there are technical constrains that do not allow us to build those pages at the moment, but that will be present in later stages.</p>",
+          "images": [
+            {
+              "url": "/static/gwl2/section_9_1.png",
+              "height": 559
+            },
+            {
+              "url": "/static/gwl2/section_9_2.png",
+              "height": 559
+            },
+            {
+              "url": "/static/gwl2/section_9_3.png",
+              "height": 442
+            },
+            {
+              "url": "/static/gwl2/section_9_4.png",
+              "height": 442
+            },
+            {
+              "url": "/static/gwl2/section_9_5.png",
+              "height": 613,
+              "label": "Final designs"
+            },
+            {
+              "url": "/static/gwl2/section_9_6.png",
+              "height": 613
+            },
+            {
+              "url": "/static/gwl2/section_9_7.gif",
+              "height": 613
+            }
+          ]
         },
         {
           "title": "Learnings",
