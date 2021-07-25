@@ -6,7 +6,7 @@ export const CASE = '/case/:caseId';
 export const HOME = '/';
 
 export const NAV_LINKS = [
-  { name: 'Portfolio', href: contact.behance, external: true },
+  { name: 'Art', href: contact.behance, external: true },
   { name: 'About', href: ABOUT },
   {
     name: 'Contact',
