@@ -341,7 +341,12 @@
           "content": "<p>An important part of the transformation of the experience was not only the ease of having all the products and services in the same place, but also being able to exchange the hallways fast and frictionless at any time when using app. This is how iterations were made to change the current interaction design and propose a new way to swap between both hallways.</p><p>As a result of this change, filter interactions, product display, additions to the shopping cart, and navigation began to improve. And it was also an important test to show that the micro-interactions that were being left aside were a fundamental piece for the user and added a lot of value.</p>",
           "images": [
             {
-              "url": "/static/walmart/section_5_1.png",
+              "url": "/static/walmart/section_5_1.gif",
+              "height": 651,
+              "mobile_height": 312
+            },
+            {
+              "url": "/static/walmart/section_5_2.gif",
               "height": 651,
               "mobile_height": 312
             }
@@ -489,7 +494,13 @@
         },
         {
           "title": "Homepage animations",
-          "content": "This website had to work not only in the content, but in the form, part of that thought was materialized when animations were made to show each feature, and implemented in a subtle way and giving total control to the user through a quite intuitive natural scroll."
+          "content": "This website had to work not only in the content, but in the form, part of that thought was materialized when animations were made to show each feature, and implemented in a subtle way and giving total control to the user through a quite intuitive natural scroll.",
+          "images": [
+            {
+              "url": "/static/verizon1/section_12_1.gif",
+              "height": 653
+            }
+          ]
         },
         {
           "title": "Why Family Money? - (How it works)",
@@ -1042,11 +1053,11 @@
           "content": "For the brand, having a presence in social networks is very important, that is why I had the responsibility of doing art direction to the pieces of social networks, also executing many of them. IQOS social media pieces are usually dynamic animated compositions to show the product and its customization.",
           "images": [
             {
-              "url": "/static/iqos/section_7_1.png",
+              "url": "/static/iqos/section_7_1.gif",
               "height": 366
             },
             {
-              "url": "/static/iqos/section_7_2.png",
+              "url": "/static/iqos/section_7_2.gif",
               "height": 366
             }
           ]
@@ -1162,7 +1173,7 @@
           "content": "Several prototypes were necessary for many of the interactions, always seeking that the cost of mental and physical interaction was very little and the friction was so minimal that users did not get out of the flow and reached the end to make the purchase.",
           "images": [
             {
-              "url": "/static/verizon2/section_5_1.png",
+              "url": "/static/verizon2/section_5_1.gif",
               "height": 902
             }
           ]
