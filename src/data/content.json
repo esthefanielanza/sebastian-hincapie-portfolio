@@ -907,6 +907,7 @@
       "slug": "iqos",
       "year": "2019",
       "logo": "/static/iqos/logo.svg",
+      "cover_img": "/static/iqos/cover.png",
       "role": "Senior UX/UI",
       "collaborators": "Rafael Gil (Senior UI)",
       "trademark":"All trademarks, logos and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.",
@@ -945,31 +946,110 @@
         },
         {
           "title": "Discovery stage",
-          "content": "We had relevant data regarding the number of current users, the expected amount to have in a new calendar year, and the continuous complaints of a large percentage of those users towards having confusion with the use of the product, with the day to day. To mitigate this, IQOS created a new program called IQOS Coach, with which they intended to provide personalized support to their users. From here we begin to work on what would be the content blocks of the website, the red routes and the feeling that the landing should convey."
+          "content": "We had relevant data regarding the number of current users, the expected amount to have in a new calendar year, and the continuous complaints of a large percentage of those users towards having confusion with the use of the product, with the day to day. To mitigate this, IQOS created a new program called IQOS Coach, with which they intended to provide personalized support to their users. From here we begin to work on what would be the content blocks of the website, the red routes and the feeling that the landing should convey.",
+          "images": [
+            {
+              "url": "/static/iqos/section_1_1.png",
+              "height": 674
+            }
+          ]
         },
         {
           "title": "Content Blocks",
-          "content": "We wanted to have a site that was easy to see, that carried the message very quickly, and that was structured in such a way that we started with the benefits, we went on to explain the product and we began to introduce the IQOS Coach service little by little, to finally move on. the registration of new users who were potential Leads."
+          "content": "We wanted to have a site that was easy to see, that carried the message very quickly, and that was structured in such a way that we started with the benefits, we went on to explain the product and we began to introduce the IQOS Coach service little by little, to finally move on. the registration of new users who were potential Leads.",
+          "images": [
+            {
+              "url": "/static/iqos/section_2_1.png",
+              "height": 286
+            }
+          ]
         },
         {
           "title": "Hero banner",
-          "content": "<p>The hero of the landing was divided into trying to achieve two things: On the one hand, a very small introduction about general features of the device that go hand in hand with achieving a change in the lifestyle of its users, and trying to generate a link of the device and the user by means of photographs. </p><p>On the other hand, have a CTA that directs users to a form where they could capture their information to contact them later and try to sell them the product. The brand's style comes directly from Switzerland, and the idea was to convey that classic and modern feeling at the same time, with black and white photographs and the combination of gold, black and gray that transmits a lot of class.</p>"
+          "content": "<p>The hero of the landing was divided into trying to achieve two things: On the one hand, a very small introduction about general features of the device that go hand in hand with achieving a change in the lifestyle of its users, and trying to generate a link of the device and the user by means of photographs. </p><p>On the other hand, have a CTA that directs users to a form where they could capture their information to contact them later and try to sell them the product. The brand's style comes directly from Switzerland, and the idea was to convey that classic and modern feeling at the same time, with black and white photographs and the combination of gold, black and gray that transmits a lot of class.</p>",
+          "images": [
+            {
+              "url": "/static/iqos/section_3_1.png",
+              "height": 326
+            },
+            {
+              "url": "/static/iqos/section_3_2.png",
+              "height": 326
+            },
+            {
+              "url": "/static/iqos/section_3_3.png",
+              "height": 355
+            },
+            {
+              "url": "/static/iqos/section_3_4.png",
+              "height": 355
+            },
+            {
+              "url": "/static/iqos/section_3_5.png",
+              "height": 355
+            },
+            {
+              "url": "/static/iqos/section_3_6.png",
+              "height": 355
+            },
+            {
+              "url": "/static/iqos/section_3_7.png",
+              "height": 355
+            }
+          ]
         },
         {
           "title": "Device features",
-          "content": "<p>An important part of the landing was to be able to expand the information to active users of the devices, and to potential users who wanted to know more about how it works. In order to make people interested in this product, the educational component is important, teaching people the supposed benefits, and the advantages that it has for their life by making the traditional tobacco switch with new technologies like these.</p><p>It was also important to highlight that aspirational element that always combines the device with users using it. In this way people can see the product in action and begin to become familiar with the way it is used, how it looks, its size and colors.</p>"
+          "content": "<p>An important part of the landing was to be able to expand the information to active users of the devices, and to potential users who wanted to know more about how it works. In order to make people interested in this product, the educational component is important, teaching people the supposed benefits, and the advantages that it has for their life by making the traditional tobacco switch with new technologies like these.</p><p>It was also important to highlight that aspirational element that always combines the device with users using it. In this way people can see the product in action and begin to become familiar with the way it is used, how it looks, its size and colors.</p>",
+          "images": [
+            {
+              "url": "/static/iqos/section_4_1.png",
+              "height": 650
+            },
+            {
+              "url": "/static/iqos/section_4_2.png",
+              "height": 650
+            }
+          ],
+          "padding": 160
         },
         {
           "title": "IQOS Coach",
-          "content": "<p>The great added value to catch quality leads with this landing was the introduction of a new service, which directly attacks the misunderstanding of the product, seen from afar or being already an active user. Most users have strong opinions regarding the learning curve to be able to use the device. This includes its operation, its personalization, its cleaning, where to buy, how often, online services, etc.</p><p>In order to mitigate this problem, the brand decided to include a new service called IQOS Coach, which is precisely designed to be able to help all those users who have doubts to solve them in a personalized way, with an SMS, with a call, with a WhatsApp and talk with a coach who was specifically assigned to help you and who knows the profile of the user.</p>"
+          "content": "<p>The great added value to catch quality leads with this landing was the introduction of a new service, which directly attacks the misunderstanding of the product, seen from afar or being already an active user. Most users have strong opinions regarding the learning curve to be able to use the device. This includes its operation, its personalization, its cleaning, where to buy, how often, online services, etc.</p><p>In order to mitigate this problem, the brand decided to include a new service called IQOS Coach, which is precisely designed to be able to help all those users who have doubts to solve them in a personalized way, with an SMS, with a call, with a WhatsApp and talk with a coach who was specifically assigned to help you and who knows the profile of the user.</p>",
+          "images": [
+            {
+              "url": "/static/iqos/section_5_1.png",
+              "height": 460
+            }
+          ]
         },
         {
           "title": "Formulary",
-          "content": "The action to get to the form and leave the data is present in each section of the entire landing. Lead capturing was an essential part of this site since the brand needed to obtain clear data from possible users to later make them recurring users of the product, for this we designed clear forms to obtain the data and in turn we offered a site with information to instruct and them."
+          "content": "The action to get to the form and leave the data is present in each section of the entire landing. Lead capturing was an essential part of this site since the brand needed to obtain clear data from possible users to later make them recurring users of the product, for this we designed clear forms to obtain the data and in turn we offered a site with information to instruct and them.",
+          "images": [
+            {
+              "url": "/static/iqos/section_6_1.png",
+              "height": 320
+            },
+            {
+              "url": "/static/iqos/section_6_2.png",
+              "height": 320
+            }
+          ]
         },
         {
           "title": "Social Media",
-          "content": "For the brand, having a presence in social networks is very important, that is why I had the responsibility of doing art direction to the pieces of social networks, also executing many of them. IQOS social media pieces are usually dynamic animated compositions to show the product and its customization."
+          "content": "For the brand, having a presence in social networks is very important, that is why I had the responsibility of doing art direction to the pieces of social networks, also executing many of them. IQOS social media pieces are usually dynamic animated compositions to show the product and its customization.",
+          "images": [
+            {
+              "url": "/static/iqos/section_7_1.png",
+              "height": 366
+            },
+            {
+              "url": "/static/iqos/section_7_2.png",
+              "height": 366
+            }
+          ]
         },
         {
           "title": "Learnings",
