@@ -7,16 +7,20 @@ import {
   CaseSection,
   CaseRights,
 } from 'components/Case';
+import useContent from 'helpers/useContent';
 
-import content from 'data/content.json';
-
-const getCaseContent = (slug) => {
-  return content.cases.find((c) => c.slug === slug);
+const getCaseContent = (slug, content) => {
+  return content.cases?.find((c) => c.slug === slug);
 };
 
 const Case = () => {
   const route = getCaseRoute();
-  const caseContent = getCaseContent(route);
+  const { content } = useContent();
+  const caseContent = getCaseContent(route, content);
+
+  if (!caseContent) {
+    return null;
+  }
 
   return (
     <div className="case">

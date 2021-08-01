@@ -8,35 +8,41 @@ import {
 
 import { About, Case, Home } from 'pages';
 import { Nav, Footer, Page } from 'components';
-import ScrollTop from './ScrollTop';
 
+import useContent from 'helpers/useContent';
+
+import ScrollTop from './ScrollTop';
 import {
   ABOUT, CASE, HOME, NAV_LINKS,
 } from './constants';
 
-const Routing = () => (
-  <Router>
-    <ScrollTop />
-    <Nav links={NAV_LINKS} />
+const Routing = () => {
+  const { contact } = useContent();
 
-    <Page>
-      <Switch>
-        <Route path={ABOUT}>
-          <About />
-        </Route>
+  return (
+    <Router>
+      <ScrollTop />
+      <Nav links={NAV_LINKS(contact)} />
 
-        <Route path={CASE}>
-          <Case />
-        </Route>
+      <Page>
+        <Switch>
+          <Route path={ABOUT}>
+            <About />
+          </Route>
 
-        <Route path={HOME}>
-          <Home />
-        </Route>
-      </Switch>
-    </Page>
+          <Route path={CASE}>
+            <Case />
+          </Route>
 
-    <Footer />
-  </Router>
-);
+          <Route path={HOME}>
+            <Home />
+          </Route>
+        </Switch>
+      </Page>
+
+      <Footer />
+    </Router>
+  );
+};
 
 export default Routing;

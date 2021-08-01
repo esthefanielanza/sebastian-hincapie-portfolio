@@ -2,11 +2,13 @@ import React from 'react';
 import { Link } from 'components/core';
 import Social from 'components/Social';
 
-import contact from 'data/contact.json';
+import useContent from 'helpers/useContent';
 
 import './styles.scss';
 
 const Footer = () => {
+  const { contact } = useContent();
+
   return (
     <footer className="footer">
       <span>

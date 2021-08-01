@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 
-import { about } from 'data/content.json';
-import contact from 'data/contact.json';
 import Text from 'helpers/Text';
-
 import {
   Button,
   ColorBlock,
@@ -12,15 +9,15 @@ import {
   HTML,
   Link,
 } from 'components/core';
-
+import useContent from 'helpers/useContent';
 import { Social } from 'components';
-
 import SectionItems from './SectionItems';
 
 import './styles.scss';
 
 const About = () => {
   const [successMessage, setSuccessMessage] = useState(null);
+  const { content: { about = {} }, contact } = useContent();
 
   const handleSuccessMessage = () => {
     setSuccessMessage(true);
@@ -33,7 +30,7 @@ const About = () => {
   return (
     <div className="about">
 
-      {about.paragraphs.map(({
+      {about.paragraphs?.map(({
         title, text, image, social,
       }, idx) => (
         <Columns key={text} className="about__column" gap="8%" reverse={Boolean(idx % 2)}>
@@ -63,13 +60,13 @@ const About = () => {
       ))}
 
       <SectionItems
-        title={about.clients.title}
-        data={about.clients.data}
+        title={about.clients?.title}
+        data={about.clients?.data}
       />
 
       <SectionItems
-        title={about.education.title}
-        data={about.education.data}
+        title={about.education?.title}
+        data={about.education?.data}
         className="education"
       />
 
