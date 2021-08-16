@@ -22,6 +22,10 @@
     height: 375px;
     object-fit: cover;
 
+    @include tablet {
+      height: auto;
+    }
+  
     @include desktop {
       height: 580px;
     }
