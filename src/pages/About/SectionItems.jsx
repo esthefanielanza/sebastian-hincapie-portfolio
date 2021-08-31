@@ -14,7 +14,7 @@ const SectionItems = ({ title, data, className }) => (
             href={item.link}
             variant={Link.VARIANTS.SCALE}
           >
-            <img src={process.env.PUBLIC_URL + item.image} alt={item.name} />
+            <img src={process.env.PUBLIC_URL + item.image} alt={item.name} height={item.height} />
           </Link>
           {item.description && <p>{item.description}</p>}
         </div>

@@ -8,12 +8,14 @@ import {
   CaseRights,
 } from 'components/Case';
 import useContent from 'helpers/useContent';
+import { useMediaQuery } from 'react-responsive';
 
 const getCaseContent = (slug, content) => {
   return content.cases?.find((c) => c.slug === slug);
 };
 
 const Case = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const route = getCaseRoute();
   const { content } = useContent();
   const caseContent = getCaseContent(route, content);
@@ -28,7 +30,7 @@ const Case = () => {
         name={caseContent.name}
         logo={caseContent.logo}
         slogan={caseContent.slogan}
-        image={caseContent.cover_img}
+        image={isMobile ? caseContent.cover_img_mobile : caseContent.cover_img}
       />
       <div className="case__content">
         <CaseOverview content={caseContent} />

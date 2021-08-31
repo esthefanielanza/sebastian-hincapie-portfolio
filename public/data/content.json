@@ -24,41 +24,49 @@
       "data": [
         {
           "name": "Walmart",
+          "height": 41,
           "image": "/static/walmart/logo.svg",
           "link": "https://www.walmart.com/"
         },
         {
           "name": "Verizon",
+          "height": 29,
           "image": "/static/verizon1/logo.svg",
           "link": "https://www.verizon.com/"
         },
         {
           "name": "Discovery",
+          "height": 27,
           "image": "/static/discovery/logo.svg",
           "link": "https://www.discovery.com/"
         },
         {
           "name": "IQOS",
+          "height": 28,
           "image": "/static/iqos/logo.svg",
           "link": "https://www.iqos.com"
         },
         {
           "name": "Avianca",
+          "height": 39,
           "image": "/static/avianca/logo.svg",
           "link": "https://www.avianca.com/co/en/"
         },
         {
           "name": "Great Wolf Lodge",
+          "height": 22,
           "image": "/static/gwl1/logo.svg",
           "link": "https://www.greatwolf.com/"
         },
         {
           "name": "Rappi",
+          "height": 47,
           "image": "/static/rappi/logo.svg",
           "link": "https://www.rappi.com.co/"
         },
         {
           "name": "Redeban Multicolor",
+          "height": 48,
           "image": "/static/redeban/logo.png",
           "link": "https://www.rbmcolombia.com/wps/portal/index/index.html"
         }
@@ -373,6 +381,7 @@
       "slug": "verizon1",
       "logo": "/static/verizon1/logo.svg",
       "cover_img": "/static/verizon1/cover.png",
+      "cover_img_mobile": "/static/verizon1/cover_mobile.png",
       "year": "2020 - 2021",
       "role": "Lead Designer",
       "collaborators": "Jorge Rios (Junior UX/UI) Alex Barranco (Mid UX/UI)",
